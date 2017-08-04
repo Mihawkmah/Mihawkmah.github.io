@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="zh-cn"><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><title> 轻松4步完成Flask博客Apache服务器搭建 · 末小山 | 玩皇室的产品经理</title><meta name="description" content="轻松4步完成Flask博客Apache服务器搭建 - Mihawkmah"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="icon" href="/favicon.png"><link rel="stylesheet" href="/css/apollo.css"><link rel="search" type="application/opensearchdescription+xml" href="http://weibo.com/mihawkmah/atom.xml" title="末小山 | 玩皇室的产品经理"></head><body><div class="wrap"><header><a href="/" class="logo-link"><img src="/favicon.png" alt="logo"></a><ul class="nav nav-list"><li class="nav-list-item"><a href="/" target="_self" class="nav-list-link">我的</a></li><li class="nav-list-item"><a href="/archives/" target="_self" class="nav-list-link">胶囊</a></li><li class="nav-list-item"><a href="http://weibo.com/mihawkmah" target="_blank" class="nav-list-link">微博</a></li><li class="nav-list-item"><a href="https://github.com/mihawkmah" target="_blank" class="nav-list-link">足迹</a></li><li class="nav-list-item"><a href="/atom.xml" target="_self" class="nav-list-link">订阅</a></li></ul></header><main class="container"><div class="post"><article class="post-block"><h1 class="post-title">轻松4步完成Flask博客Apache服务器搭建</h1><div class="post-info">2017年8月4日</div><div class="post-content"><h4 id="1-服务器配置"><a href="#1-服务器配置" class="headerlink" title="1 服务器配置"></a>1 服务器配置</h4><ul>
+<!DOCTYPE html><html lang="zh-cn"><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><title> 轻松4步完成Flask博客Apache服务器搭建 · 末小山 | 玩皇室的产品经理</title><meta name="description" content="轻松4步完成Flask博客Apache服务器搭建 - Mihawkmah"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="icon" href="/favicon.png"><link rel="stylesheet" href="/css/apollo.css"><link rel="search" type="application/opensearchdescription+xml" href="http://weibo.com/mihawkmah/atom.xml" title="末小山 | 玩皇室的产品经理"></head><body><div class="wrap"><header><a href="/" class="logo-link"><img src="/favicon.png" alt="logo"></a><ul class="nav nav-list"><li class="nav-list-item"><a href="/" target="_self" class="nav-list-link">我的</a></li><li class="nav-list-item"><a href="/archives/" target="_self" class="nav-list-link">胶囊</a></li><li class="nav-list-item"><a href="http://weibo.com/mihawkmah" target="_blank" class="nav-list-link">微博</a></li><li class="nav-list-item"><a href="https://github.com/mihawkmah" target="_blank" class="nav-list-link">足迹</a></li><li class="nav-list-item"><a href="/atom.xml" target="_self" class="nav-list-link">订阅</a></li></ul></header><main class="container"><div class="post"><article class="post-block"><h1 class="post-title">轻松4步完成Flask博客Apache服务器搭建</h1><div class="post-info">2017年8月4日</div><div class="post-content"><h4 id="第1步-服务器配置"><a href="#第1步-服务器配置" class="headerlink" title="第1步 服务器配置"></a>第1步 服务器配置</h4><h5 id="环境准备"><a href="#环境准备" class="headerlink" title="环境准备"></a>环境准备</h5><ul>
 <li><p>使用centos-6-x86系统</p>
 </li>
 <li><p>用iterm连接服务器 </p>
@@ -45,9 +45,10 @@
 <p><code>#!/usr/bin/python2.7</code></p>
 </li>
 </ul>
-<h4 id="2-Apache配置"><a href="#2-Apache配置" class="headerlink" title="2 Apache配置"></a>2 Apache配置</h4><ul>
+<h4 id="第2步-Apache配置"><a href="#第2步-Apache配置" class="headerlink" title="第2步 Apache配置"></a>第2步 Apache配置</h4><ul>
 <li><h5 id="安装Apache服务器相关包"><a href="#安装Apache服务器相关包" class="headerlink" title="安装Apache服务器相关包"></a>安装Apache服务器相关包</h5><p><code>yum install httpd</code></p>
 <p><code>yum install httpd-devel</code></p>
+<p>##### </p>
 </li>
 <li><h5 id="安装mod-wsgi-so，不能使用yum安装，使用Python3-6安装，参考网址http-modwsgi-readthedocs-io-en-develop-user-guides-quick-installation-guide-html"><a href="#安装mod-wsgi-so，不能使用yum安装，使用Python3-6安装，参考网址http-modwsgi-readthedocs-io-en-develop-user-guides-quick-installation-guide-html" class="headerlink" title="安装mod_wsgi.so，不能使用yum安装，使用Python3.6安装，参考网址http://modwsgi.readthedocs.io/en/develop/user-guides/quick-installation-guide.html"></a>安装mod_wsgi.so，不能使用yum安装，使用Python3.6安装，参考网址<a href="http://modwsgi.readthedocs.io/en/develop/user-guides/quick-installation-guide.html" target="_blank" rel="external">http://modwsgi.readthedocs.io/en/develop/user-guides/quick-installation-guide.html</a></h5></li>
 <li><p>下载安装包<a href="https://github.com/GrahamDumpleton/mod_wsgi/releases" target="_blank" rel="external">https://github.com/GrahamDumpleton/mod_wsgi/releases</a></p>
@@ -63,7 +64,7 @@
 <p>​</p>
 </li>
 </ul>
-<h4 id="3-数据库配置"><a href="#3-数据库配置" class="headerlink" title="3 数据库配置"></a>3 数据库配置</h4><ul>
+<h4 id="第3步-数据库配置"><a href="#第3步-数据库配置" class="headerlink" title="第3步 数据库配置"></a>第3步 数据库配置</h4><ul>
 <li><p>查看系统版本，如果输出的信息包含 x86_64，说明你的系统是64位，如果不包含说明是32位系统。</p>
 <p><code>uname -a</code></p>
 </li>
@@ -89,7 +90,7 @@
 <p>​</p>
 </li>
 </ul>
-<h4 id="4-网站配置"><a href="#4-网站配置" class="headerlink" title="4 网站配置"></a>4 网站配置</h4><ul>
+<h4 id="第4步-网站配置"><a href="#第4步-网站配置" class="headerlink" title="第4步 网站配置"></a>第4步 网站配置</h4><ul>
 <li><p>Flask博客环境配置</p>
 <p><code>pip install flask-mongoengine</code></p>
 <p><code>pip install flask-login</code></p>
@@ -115,7 +116,7 @@
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div></pre></td><td class="code"><pre><div class="line"># -*- coding: utf-8 -*-</div><div class="line"></div><div class="line">from flask import Flask</div><div class="line">from flask_mongoengine import MongoEngine</div><div class="line">from flask.ext.login import LoginManager</div><div class="line"></div><div class="line"># 初始化flask应用</div><div class="line">app = Flask(__name__)</div><div class="line">app.config.from_object(&apos;config&apos;)</div><div class="line"></div><div class="line"># 初始化数据库</div><div class="line">app.config[&apos;MONGODB_SETTINGS&apos;] = &#123;</div><div class="line">    &apos;db&apos;: &apos;mblog&apos;,</div><div class="line">    &apos;host&apos;: &apos;127.0.0.1&apos;,</div><div class="line">    &apos;port&apos;: 27017</div><div class="line">&#125;</div><div class="line">db = MongoEngine(app)</div><div class="line"></div><div class="line"># 初始化Flasklogin</div><div class="line">lm = LoginManager(app)</div><div class="line"></div><div class="line">from app import views,models</div><div class="line"></div><div class="line">if __name__ == &apos;__main__&apos;:</div><div class="line">    app.run(host=&apos;0.0.0.0&apos;,port=5000,debug=True)</div></pre></td></tr></table></figure>
 </li>
 </ul>
-<h4 id="5-其他"><a href="#5-其他" class="headerlink" title="5 其他"></a>5 其他</h4><ul>
+<h4 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h4><ul>
 <li><p>显示软链接对应路径</p>
 <p><code>ls -l /usr/bin/python</code></p>
 </li>
@@ -126,7 +127,9 @@
 <p><code>tail -f /var/log/httpd/error_log</code></p>
 </li>
 </ul>
+<blockquote>
 <p>博客源码：<a href="https://github.com/Mihawkmah/Flask.blog" target="_blank" rel="external">https://github.com/Mihawkmah/Flask.blog</a></p>
+</blockquote>
 </div></article></div></main><footer><div class="paginator"><a href="/2017/08/04/MAC使用Hexo在GitHub搭建静态博客/" class="prev">上一篇</a></div><div id="disqus_thread"></div><script>var disqus_shortname = 'mihawkmah';
 var disqus_identifier = '2017/08/04/轻松4步完成Flask博客Apache服务器搭建/';
 var disqus_title = '轻松4步完成Flask博客Apache服务器搭建';
