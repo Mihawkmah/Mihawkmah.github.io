@@ -57,7 +57,7 @@
     <link href="http://weibo.com/mihawkmah/2017/08/04/%E8%BD%BB%E6%9D%BE4%E6%AD%A5%E5%AE%8C%E6%88%90Flask%E5%8D%9A%E5%AE%A2Apache%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%90%AD%E5%BB%BA/"/>
     <id>http://weibo.com/mihawkmah/2017/08/04/轻松4步完成Flask博客Apache服务器搭建/</id>
     <published>2017-08-04T06:40:00.000Z</published>
-    <updated>2017-08-04T08:17:36.000Z</updated>
+    <updated>2017-08-04T08:20:26.000Z</updated>
     
     <content type="html"><![CDATA[<h3 id="第1步-服务器配置"><a href="#第1步-服务器配置" class="headerlink" title="第1步 服务器配置"></a>第1步 服务器配置</h3><h4 id="环境准备"><a href="#环境准备" class="headerlink" title="环境准备"></a>环境准备</h4><ul>
 <li><p>使用centos-6-x86系统</p>
@@ -106,7 +106,7 @@
 <p><code>#!/usr/bin/python2.7</code></p>
 </li>
 </ul>
-<h4 id="第2步-Apache配置"><a href="#第2步-Apache配置" class="headerlink" title="第2步 Apache配置"></a>第2步 Apache配置</h4><ul>
+<h3 id="第2步-Apache配置"><a href="#第2步-Apache配置" class="headerlink" title="第2步 Apache配置"></a>第2步 Apache配置</h3><ul>
 <li><h4 id="安装Apache服务器相关包"><a href="#安装Apache服务器相关包" class="headerlink" title="安装Apache服务器相关包"></a>安装Apache服务器相关包</h4><p><code>yum install httpd</code></p>
 <p><code>yum install httpd-devel</code></p>
 <p>##### </p>
