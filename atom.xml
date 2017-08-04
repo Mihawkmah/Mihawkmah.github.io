@@ -57,7 +57,7 @@
     <link href="http://weibo.com/mihawkmah/2017/08/04/%E8%BD%BB%E6%9D%BE4%E6%AD%A5%E5%AE%8C%E6%88%90Flask%E5%8D%9A%E5%AE%A2Apache%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%90%AD%E5%BB%BA/"/>
     <id>http://weibo.com/mihawkmah/2017/08/04/轻松4步完成Flask博客Apache服务器搭建/</id>
     <published>2017-08-04T06:40:00.000Z</published>
-    <updated>2017-08-04T08:20:26.000Z</updated>
+    <updated>2017-08-04T09:14:45.000Z</updated>
     
     <content type="html"><![CDATA[<h3 id="第1步-服务器配置"><a href="#第1步-服务器配置" class="headerlink" title="第1步 服务器配置"></a>第1步 服务器配置</h3><h4 id="环境准备"><a href="#环境准备" class="headerlink" title="环境准备"></a>环境准备</h4><ul>
 <li><p>使用centos-6-x86系统</p>
@@ -111,7 +111,9 @@
 <p><code>yum install httpd-devel</code></p>
 <p>##### </p>
 </li>
-<li><h4 id="安装mod-wsgi-so，不能使用yum安装，使用Python3-6安装，参考网址http-modwsgi-readthedocs-io-en-develop-user-guides-quick-installation-guide-html"><a href="#安装mod-wsgi-so，不能使用yum安装，使用Python3-6安装，参考网址http-modwsgi-readthedocs-io-en-develop-user-guides-quick-installation-guide-html" class="headerlink" title="安装mod_wsgi.so，不能使用yum安装，使用Python3.6安装，参考网址http://modwsgi.readthedocs.io/en/develop/user-guides/quick-installation-guide.html"></a>安装mod_wsgi.so，不能使用yum安装，使用Python3.6安装，参考网址<a href="http://modwsgi.readthedocs.io/en/develop/user-guides/quick-installation-guide.html" target="_blank" rel="external">http://modwsgi.readthedocs.io/en/develop/user-guides/quick-installation-guide.html</a></h4></li>
+<li><h4 id="安装mod-wsgi-so"><a href="#安装mod-wsgi-so" class="headerlink" title="安装mod_wsgi.so"></a>安装mod_wsgi.so</h4></li>
+<li><p>不能使用yum安装，使用Python3.6安装，参考网址<a href="http://modwsgi.readthedocs.io/en/develop/user-guides/quick-installation-guide.html" target="_blank" rel="external">http://modwsgi.readthedocs.io/en/develop/user-guides/quick-installation-guide.html</a></p>
+</li>
 <li><p>下载安装包<a href="https://github.com/GrahamDumpleton/mod_wsgi/releases" target="_blank" rel="external">https://github.com/GrahamDumpleton/mod_wsgi/releases</a></p>
 </li>
 <li><p>编译</p>
