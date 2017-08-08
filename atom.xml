@@ -70,12 +70,11 @@
     <link href="http://weibo.com/mihawkmah/2017/08/04/%E8%BD%BB%E6%9D%BE4%E6%AD%A5%E5%AE%8C%E6%88%90Flask%E5%8D%9A%E5%AE%A2Apache%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%90%AD%E5%BB%BA/"/>
     <id>http://weibo.com/mihawkmah/2017/08/04/轻松4步完成Flask博客Apache服务器搭建/</id>
     <published>2017-08-04T06:40:00.000Z</published>
-    <updated>2017-08-07T05:50:58.000Z</updated>
+    <updated>2017-08-07T06:42:58.000Z</updated>
     
     <content type="html"><![CDATA[<div class="tip"><br><br>版权归属 禁止转载 如需转载请联系微信:mihawkmah<br><br></div>
 
-<p>第1步 服务器配置</p>
-<h4 id="环境准备"><a href="#环境准备" class="headerlink" title="环境准备"></a>环境准备</h4><ul>
+<h3 id="第1步-服务器配置"><a href="#第1步-服务器配置" class="headerlink" title="第1步 服务器配置"></a>第1步 服务器配置</h3><h4 id="环境准备"><a href="#环境准备" class="headerlink" title="环境准备"></a>环境准备</h4><ul>
 <li><p>使用centos-6-x86系统</p>
 </li>
 <li><p>用iterm连接服务器 </p>
@@ -215,8 +214,7 @@
     
       &lt;div class=&quot;tip&quot;&gt;&lt;br&gt;&lt;br&gt;版权归属 禁止转载 如需转载请联系微信:mihawkmah&lt;br&gt;&lt;br&gt;&lt;/div&gt;
 
-&lt;p&gt;第1步 服务器配置&lt;/p&gt;
-&lt;h4 id=&quot;环境准备&quot;&gt;&lt;a href=&quot;#环境准备&quot; class=&quot;headerlink&quot; titl
+&lt;h3 id=&quot;第1步-服务器配置&quot;&gt;&lt;a href=&quot;#第1步-服务器配置&quot; class=&quot;headerlink&quot; title=&quot;第1步 
     
     </summary>
     
