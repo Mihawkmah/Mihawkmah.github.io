@@ -66,11 +66,12 @@
     <link href="https://mihawkmah.github.io/2017/08/04/MAC%E4%BD%BF%E7%94%A8Hexo%E5%9C%A8GitHub%E6%90%AD%E5%BB%BA%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2/"/>
     <id>https://mihawkmah.github.io/2017/08/04/MAC使用Hexo在GitHub搭建静态博客/</id>
     <published>2017-08-04T07:36:58.000Z</published>
-    <updated>2017-08-09T06:18:07.000Z</updated>
+    <updated>2017-08-16T07:34:28.000Z</updated>
     
     <content type="html"><![CDATA[<h3 id="1-MAC本地环境准备"><a href="#1-MAC本地环境准备" class="headerlink" title="1. MAC本地环境准备"></a>1. MAC本地环境准备</h3><h4 id="安装Node-js"><a href="#安装Node-js" class="headerlink" title="安装Node.js"></a>安装Node.js</h4><p>官网下载安装包安装<a href="https://hexo.io/zh-cn/" target="_blank" rel="external">https://hexo.io/zh-cn/</a></p>
 <h4 id="安装Git"><a href="#安装Git" class="headerlink" title="安装Git"></a>安装Git</h4><p><code>brew install git</code></p>
 <h4 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h4><p><code>sudo npm install -g hexo</code></p>
+<a id="more"></a>
 <h4 id="建立本地网站"><a href="#建立本地网站" class="headerlink" title="建立本地网站"></a>建立本地网站</h4><p><code>hexo init hexo</code></p>
 <p><code>cd hexo</code></p>
 <p><code>npm install</code></p>
@@ -102,7 +103,9 @@
     
     <summary type="html">
     
-      &lt;h3 id=&quot;1-MAC本地环境准备&quot;&gt;&lt;a href=&quot;#1-MAC本地环境准备&quot; class=&quot;headerlink&quot; title=&quot;1. MAC本地环境准备&quot;&gt;&lt;/a&gt;1. MAC本地环境准备&lt;/h3&gt;&lt;h4 id=&quot;安装Node-js&quot;&gt;&lt;a href=&quot;#安装Node
+      &lt;h3 id=&quot;1-MAC本地环境准备&quot;&gt;&lt;a href=&quot;#1-MAC本地环境准备&quot; class=&quot;headerlink&quot; title=&quot;1. MAC本地环境准备&quot;&gt;&lt;/a&gt;1. MAC本地环境准备&lt;/h3&gt;&lt;h4 id=&quot;安装Node-js&quot;&gt;&lt;a href=&quot;#安装Node-js&quot; class=&quot;headerlink&quot; title=&quot;安装Node.js&quot;&gt;&lt;/a&gt;安装Node.js&lt;/h4&gt;&lt;p&gt;官网下载安装包安装&lt;a href=&quot;https://hexo.io/zh-cn/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://hexo.io/zh-cn/&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;安装Git&quot;&gt;&lt;a href=&quot;#安装Git&quot; class=&quot;headerlink&quot; title=&quot;安装Git&quot;&gt;&lt;/a&gt;安装Git&lt;/h4&gt;&lt;p&gt;&lt;code&gt;brew install git&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&quot;安装Hexo&quot;&gt;&lt;a href=&quot;#安装Hexo&quot; class=&quot;headerlink&quot; title=&quot;安装Hexo&quot;&gt;&lt;/a&gt;安装Hexo&lt;/h4&gt;&lt;p&gt;&lt;code&gt;sudo npm install -g hexo&lt;/code&gt;&lt;/p&gt;
     
     </summary>
     
@@ -114,13 +117,14 @@
     <link href="https://mihawkmah.github.io/2017/08/04/%E8%BD%BB%E6%9D%BE4%E6%AD%A5%E5%AE%8C%E6%88%90Flask%E5%8D%9A%E5%AE%A2Apache%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%90%AD%E5%BB%BA/"/>
     <id>https://mihawkmah.github.io/2017/08/04/轻松4步完成Flask博客Apache服务器搭建/</id>
     <published>2017-08-04T06:40:00.000Z</published>
-    <updated>2017-08-09T06:19:10.000Z</updated>
+    <updated>2017-08-16T07:34:40.000Z</updated>
     
     <content type="html"><![CDATA[<h3 id="第1步-服务器配置"><a href="#第1步-服务器配置" class="headerlink" title="第1步 服务器配置"></a>第1步 服务器配置</h3><h4 id="环境准备"><a href="#环境准备" class="headerlink" title="环境准备"></a>环境准备</h4><ul>
 <li><p>使用centos-6-x86系统</p>
 </li>
 <li><p>用iterm连接服务器 </p>
 <p><code>ssh root@67.209.189.156 -p 27556</code></p>
+<a id="more"></a>
 </li>
 <li><p>在iterm按快捷键option+command+F打开密码管理，输入服务器密码。打开菜单Profiles-Advanced-Edit配置自动弹出密码，其中Regular Expression填写root@67.209.189.156’s password:，Action填写Open Password Manager，然后选择对应的服务器密码。</p>
 </li>
@@ -256,7 +260,11 @@
     
     <summary type="html">
     
-      &lt;h3 id=&quot;第1步-服务器配置&quot;&gt;&lt;a href=&quot;#第1步-服务器配置&quot; class=&quot;headerlink&quot; title=&quot;第1步 服务器配置&quot;&gt;&lt;/a&gt;第1步 服务器配置&lt;/h3&gt;&lt;h4 id=&quot;环境准备&quot;&gt;&lt;a href=&quot;#环境准备&quot; class=&quot;headerli
+      &lt;h3 id=&quot;第1步-服务器配置&quot;&gt;&lt;a href=&quot;#第1步-服务器配置&quot; class=&quot;headerlink&quot; title=&quot;第1步 服务器配置&quot;&gt;&lt;/a&gt;第1步 服务器配置&lt;/h3&gt;&lt;h4 id=&quot;环境准备&quot;&gt;&lt;a href=&quot;#环境准备&quot; class=&quot;headerlink&quot; title=&quot;环境准备&quot;&gt;&lt;/a&gt;环境准备&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;使用centos-6-x86系统&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;用iterm连接服务器 &lt;/p&gt;
+&lt;p&gt;&lt;code&gt;ssh root@67.209.189.156 -p 27556&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;
     
     </summary>
     
