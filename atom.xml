@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://mihawkmah.github.io/"/>
-  <updated>2017-08-16T07:28:49.000Z</updated>
+  <updated>2017-08-16T07:32:24.000Z</updated>
   <id>https://mihawkmah.github.io/</id>
   
   <author>
@@ -20,16 +20,16 @@
     <link href="https://mihawkmah.github.io/2017/08/16/%E5%8E%9F%E5%9E%8B%E8%AE%BE%E8%AE%A1%E6%A1%86%E6%9E%B6-%E9%AB%98%E6%95%88%E6%B2%9F%E9%80%9A%E4%BC%A0%E8%BE%BE%E6%96%B9%E6%A1%88/"/>
     <id>https://mihawkmah.github.io/2017/08/16/原型设计框架-高效沟通传达方案/</id>
     <published>2017-08-16T07:23:32.000Z</published>
-    <updated>2017-08-16T07:28:49.000Z</updated>
+    <updated>2017-08-16T07:32:24.000Z</updated>
     
     <content type="html"><![CDATA[<p>当产品的需求落地后，需要将所需的功能高效的传达给UI、前端、研发，这个时候原型设计的好坏就起到了至关重要的作用，需求传达不明确会导致产品反复修改，浪费大量的设计开发资源，下面是我最近总结的原型设计框架，我的习惯是交互直接在原型中标注。</p>
+<a id="more"></a>
 <p><img src="/2017/08/16/原型设计框架-高效沟通传达方案/原型设计框架.jpg" alt="原型设计框架"></p>
 ]]></content>
     
     <summary type="html">
     
       &lt;p&gt;当产品的需求落地后，需要将所需的功能高效的传达给UI、前端、研发，这个时候原型设计的好坏就起到了至关重要的作用，需求传达不明确会导致产品反复修改，浪费大量的设计开发资源，下面是我最近总结的原型设计框架，我的习惯是交互直接在原型中标注。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/2
     
     </summary>
     
@@ -41,10 +41,11 @@
     <link href="https://mihawkmah.github.io/2017/08/09/%E4%BA%A7%E5%93%81%E5%86%B2%E5%88%BA%E6%A1%86%E6%9E%B6%20%7C%20%E4%BB%8E0%E5%88%B01%E5%BF%AB%E9%80%9F%E8%90%BD%E5%9C%B0%E4%BA%A7%E5%93%81/"/>
     <id>https://mihawkmah.github.io/2017/08/09/产品冲刺框架 | 从0到1快速落地产品/</id>
     <published>2017-08-09T03:29:31.000Z</published>
-    <updated>2017-08-16T02:26:11.000Z</updated>
+    <updated>2017-08-16T07:32:39.000Z</updated>
     
     <content type="html"><![CDATA[<p>产品在工作过程中往往面对来自各方的需求，工作一多便容易失去头绪，在这个过程中不断踩坑不断总结，得出一套属于自己的产品方法论，才能更好的落地一款产品。</p>
 <p>产品冲刺框架，经历需求分析 - 从需求到功能 - 功能元素梳理这三大过程。框架可以起到地图的作用，在工作过程中帮助你查漏补缺，提高思维效率，如果有效就拿来用吧。</p>
+<a id="more"></a>
 <p><img src="/2017/08/09/产品冲刺框架 | 从0到1快速落地产品/产品冲刺框架.jpg" alt="产品冲刺框架"></p>
 <div class="tip"><br><br>版权归属 禁止转载<br><br></div>
 
@@ -53,7 +54,7 @@
     <summary type="html">
     
       &lt;p&gt;产品在工作过程中往往面对来自各方的需求，工作一多便容易失去头绪，在这个过程中不断踩坑不断总结，得出一套属于自己的产品方法论，才能更好的落地一款产品。&lt;/p&gt;
-&lt;p&gt;产品冲刺框架，经历需求分析 - 从需求到功能 - 功能元素梳理这三大过程。框架可以起到地图的作用，在工作过程中
+&lt;p&gt;产品冲刺框架，经历需求分析 - 从需求到功能 - 功能元素梳理这三大过程。框架可以起到地图的作用，在工作过程中帮助你查漏补缺，提高思维效率，如果有效就拿来用吧。&lt;/p&gt;
     
     </summary>
     
