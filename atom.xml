@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://mihawkmah.github.io/"/>
-  <updated>2017-08-16T07:32:24.000Z</updated>
+  <updated>2017-08-18T07:06:24.000Z</updated>
   <id>https://mihawkmah.github.io/</id>
   
   <author>
@@ -20,9 +20,12 @@
     <link href="https://mihawkmah.github.io/2017/08/16/%E5%8E%9F%E5%9E%8B%E8%AE%BE%E8%AE%A1%E6%A1%86%E6%9E%B6-%E9%AB%98%E6%95%88%E6%B2%9F%E9%80%9A%E4%BC%A0%E8%BE%BE%E6%96%B9%E6%A1%88/"/>
     <id>https://mihawkmah.github.io/2017/08/16/原型设计框架-高效沟通传达方案/</id>
     <published>2017-08-16T07:23:32.000Z</published>
-    <updated>2017-08-16T07:32:24.000Z</updated>
+    <updated>2017-08-18T07:06:24.000Z</updated>
     
     <content type="html"><![CDATA[<p>当产品的需求落地后，需要将所需的功能高效的传达给UI、前端、研发，这个时候原型设计的好坏就起到了至关重要的作用，需求传达不明确会导致产品反复修改，浪费大量的设计开发资源，下面是我最近总结的原型设计框架，我的习惯是交互直接在原型中标注。</p>
+<blockquote>
+<p>在允许的范围内（不同的输入输出限制下），努力寻找、选择、创造一些套路，影响用户行为，让用户以更好的体验完成自身目标以及产品目标。</p>
+</blockquote>
 <a id="more"></a>
 <p><img src="/2017/08/16/原型设计框架-高效沟通传达方案/原型设计框架.jpg" alt="原型设计框架"></p>
 ]]></content>
@@ -30,6 +33,9 @@
     <summary type="html">
     
       &lt;p&gt;当产品的需求落地后，需要将所需的功能高效的传达给UI、前端、研发，这个时候原型设计的好坏就起到了至关重要的作用，需求传达不明确会导致产品反复修改，浪费大量的设计开发资源，下面是我最近总结的原型设计框架，我的习惯是交互直接在原型中标注。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;在允许的范围内（不同的输入输出限制下），努力寻找、选择、创造一些套路，影响用户行为，让用户以更好的体验完成自身目标以及产品目标。&lt;/p&gt;
+&lt;/blockquote&gt;
     
     </summary>
     
