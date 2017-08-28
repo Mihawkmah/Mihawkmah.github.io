@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://mihawkmah.github.io/"/>
-  <updated>2017-08-24T06:34:58.000Z</updated>
+  <updated>2017-08-28T07:47:34.000Z</updated>
   <id>https://mihawkmah.github.io/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="https://mihawkmah.github.io/2017/08/24/%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86%E6%A1%86%E6%9E%B6-%E7%9F%AD%E5%B9%B3%E5%BF%AB%E6%8E%A8%E5%8A%A8%E9%A1%B9%E7%9B%AE/"/>
     <id>https://mihawkmah.github.io/2017/08/24/项目管理框架-短平快推动项目/</id>
     <published>2017-08-24T05:38:20.000Z</published>
-    <updated>2017-08-24T06:34:58.000Z</updated>
+    <updated>2017-08-28T07:47:34.000Z</updated>
     
     <content type="html"><![CDATA[<p>实际工作中为了确保项目按照进度顺利完成，产品经理需要对项目进行一定的管理和把控，这个过程中包含了时间管理、人员管理、资源的控制协调等。产品相较于研发在思考的维度上往往更具有深度和广度，所以更加适合进行项目的管理工作。研发往往只会通过实现这个维度去思考问题，而产品则需要考虑体验、交互、用户、产品、市场等一系列影响项目的因素。</p>
 <a id="more"></a>
@@ -50,18 +50,21 @@
   </entry>
   
   <entry>
-    <title>原型设计框架 | 高效沟通传达方案</title>
-    <link href="https://mihawkmah.github.io/2017/08/16/%E5%8E%9F%E5%9E%8B%E8%AE%BE%E8%AE%A1%E6%A1%86%E6%9E%B6-%E9%AB%98%E6%95%88%E6%B2%9F%E9%80%9A%E4%BC%A0%E8%BE%BE%E6%96%B9%E6%A1%88/"/>
-    <id>https://mihawkmah.github.io/2017/08/16/原型设计框架-高效沟通传达方案/</id>
+    <title>原型文档框架 | 高效沟通传达方案</title>
+    <link href="https://mihawkmah.github.io/2017/08/16/%E5%8E%9F%E5%9E%8B%E6%96%87%E6%A1%A3%E6%A1%86%E6%9E%B6-%E9%AB%98%E6%95%88%E6%B2%9F%E9%80%9A%E4%BC%A0%E8%BE%BE%E6%96%B9%E6%A1%88/"/>
+    <id>https://mihawkmah.github.io/2017/08/16/原型文档框架-高效沟通传达方案/</id>
     <published>2017-08-16T07:23:32.000Z</published>
-    <updated>2017-08-18T07:06:24.000Z</updated>
+    <updated>2017-08-28T07:48:35.000Z</updated>
     
     <content type="html"><![CDATA[<p>当产品的需求落地后，需要将所需的功能高效的传达给UI、前端、研发，这个时候原型设计的好坏就起到了至关重要的作用，需求传达不明确会导致产品反复修改，浪费大量的设计开发资源，下面是我最近总结的原型设计框架，我的习惯是交互直接在原型中标注。</p>
 <blockquote>
 <p>在允许的范围内（不同的输入输出限制下），努力寻找、选择、创造一些套路，影响用户行为，让用户以更好的体验完成自身目标以及产品目标。</p>
 </blockquote>
 <a id="more"></a>
-<p><img src="/2017/08/16/原型设计框架-高效沟通传达方案/原型设计框架.jpg" alt="原型设计框架"></p>
+<p><img src="/2017/08/16/原型文档框架-高效沟通传达方案/原型文档框架.jpg" alt="原型文档框架"></p>
+<blockquote>
+<p>测试文档模板：编号、功能元素、前置条件、操作步骤、预期结果、是否通过、实际结果、反馈建议</p>
+</blockquote>
 ]]></content>
     
     <summary type="html">
