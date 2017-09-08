@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://mihawkmah.github.io/"/>
-  <updated>2017-09-07T03:13:28.000Z</updated>
+  <updated>2017-09-08T04:45:05.000Z</updated>
   <id>https://mihawkmah.github.io/</id>
   
   <author>
@@ -16,11 +16,32 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>产品文档框架-缜密的产品之术</title>
+    <link href="https://mihawkmah.github.io/2017/09/08/%E4%BA%A7%E5%93%81%E6%96%87%E6%A1%A3%E6%A1%86%E6%9E%B6-%E7%BC%9C%E5%AF%86%E7%9A%84%E4%BA%A7%E5%93%81%E4%B9%8B%E6%9C%AF/"/>
+    <id>https://mihawkmah.github.io/2017/09/08/产品文档框架-缜密的产品之术/</id>
+    <published>2017-09-08T04:36:07.000Z</published>
+    <updated>2017-09-08T04:45:05.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>原型+标注的形式可以很好的传达页面逻辑及功能需求，在此基础上，需要使用文档的形式将APP全局功能及异常情况处理落地下来提交给研发，将产品原型中无法顾及到的内容表述清楚。</p>
+<a id="more"></a>
+<p><img src="/2017/09/08/产品文档框架-缜密的产品之术/Users/Mihawk/Documents/GitHub/hexo/source/_posts/产品文档框架-缜密的产品之术/文档框架.jpg" alt="文档框架"></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;原型+标注的形式可以很好的传达页面逻辑及功能需求，在此基础上，需要使用文档的形式将APP全局功能及异常情况处理落地下来提交给研发，将产品原型中无法顾及到的内容表述清楚。&lt;/p&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title>Scrapy爬虫入门[一] | 环境配置及基本使用</title>
     <link href="https://mihawkmah.github.io/2017/09/07/Scrapy%E7%88%AC%E8%99%AB%E5%85%A5%E9%97%A8%5B%E4%B8%80%5D-%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%E5%8F%8A%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/"/>
     <id>https://mihawkmah.github.io/2017/09/07/Scrapy爬虫入门[一]-环境配置及基本使用/</id>
     <published>2017-09-07T03:11:24.000Z</published>
-    <updated>2017-09-07T03:13:28.000Z</updated>
+    <updated>2017-09-07T06:38:23.000Z</updated>
     
     <content type="html"><![CDATA[<h3 id="环境配置初始化"><a href="#环境配置初始化" class="headerlink" title="环境配置初始化"></a>环境配置初始化</h3><h4 id="环境搭建"><a href="#环境搭建" class="headerlink" title="环境搭建"></a>环境搭建</h4><p>安装虚拟环境管理工具pyenv</p>
 <p><code>请自行搜索安装方法</code></p>
@@ -28,7 +49,8 @@
 <p><code>conda install anaconda</code></p>
 <p>安装爬虫框架Scrapy</p>
 <p><code>conda install scrapy</code></p>
-<h4 id="创建Scrapy项目"><a href="#创建Scrapy项目" class="headerlink" title="创建Scrapy项目"></a>创建Scrapy项目</h4><p><code>scrapy startproject tutorial</code></p>
+<a id="more"></a>
+<h4 id="创建Scrapy项目"><a href="#创建Scrapy项目" class="headerlink" title="创建Scrapy项目"></a>创建Scrapy项目</h4><p><code>scrapy startproject tutorial</code>  其中tutorial为项目名称</p>
 <p>项目结构</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div></pre></td><td class="code"><pre><div class="line">tutorial/</div><div class="line">    scrapy.cfg            # 部署配置文件</div><div class="line"></div><div class="line">    tutorial/             # Python模块,代码写在这个目录下</div><div class="line">        __init__.py</div><div class="line"></div><div class="line">        items.py          # 项目项定义文件</div><div class="line"></div><div class="line">        pipelines.py      # 项目管道文件</div><div class="line"></div><div class="line">        settings.py       # 项目设置文件</div><div class="line"></div><div class="line">        spiders/          # 我们的爬虫/蜘蛛 目录</div><div class="line">            __init__.py</div></pre></td></tr></table></figure>
 <p>编写爬虫</p>
@@ -36,6 +58,8 @@
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div></pre></td><td class="code"><pre><div class="line">import scrapy</div><div class="line"></div><div class="line">class QuotesSpider(scrapy.Spider):</div><div class="line">    name = &quot;quotes&quot;</div><div class="line">    start_urls = [</div><div class="line">        &apos;http://quotes.toscrape.com/page/1/&apos;,</div><div class="line">        &apos;http://quotes.toscrape.com/page/2/&apos;,</div><div class="line">    ]</div><div class="line"></div><div class="line">    def parse(self, response):</div><div class="line">        for quote in response.css(&apos;div.quote&apos;):</div><div class="line">            yield &#123;</div><div class="line">                &apos;text&apos;: quote.css(&apos;span.text::text&apos;).extract_first(),</div><div class="line">                &apos;author&apos;: quote.css(&apos;small.author::text&apos;).extract_first(),</div><div class="line">                &apos;tags&apos;: quote.css(&apos;div.tags a.tag::text&apos;).extract(),</div><div class="line">            &#125;</div></pre></td></tr></table></figure>
 <h4 id="运行爬虫"><a href="#运行爬虫" class="headerlink" title="运行爬虫"></a>运行爬虫</h4><p>进入项目根目录</p>
 <p><code>cd tutorial</code></p>
+<p>查看项目包含的爬虫名称</p>
+<p><code>scrapy list</code></p>
 <p>执行爬虫</p>
 <p><code>scrapy crawl quotes</code></p>
 <p>其中quotes是编写的爬虫文件中定义的名称</p>
@@ -44,14 +68,22 @@
 <p>使用Chrome插件</p>
 <p><code>SelectorGadget</code></p>
 <p>CSS选择数据</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"># 提取样式为quote的title元素</div><div class="line">response.css(&apos;title.quote&apos;)</div><div class="line"># 提取title元素的文本</div><div class="line">response.css(&apos;title::text&apos;).extract()</div><div class="line"># 提取第一个title元素的文本</div><div class="line">response.css(&apos;title::text&apos;)[0].extract()</div><div class="line"># 提取div.tags下的a.tag元素的文本</div><div class="line">quote.css(&apos;div.tags a.tag::text&apos;).extract()</div></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div></pre></td><td class="code"><pre><div class="line"># extract（）</div><div class="line">调用.extract()此列表中每个元素的方法，并将其结果作为unicode字符串列表返回展平</div><div class="line"># 提取样式为quote的title元素</div><div class="line">response.css(&apos;title.quote&apos;)</div><div class="line"># 提取title元素的文本</div><div class="line">response.css(&apos;title::text&apos;).extract()</div><div class="line"># 提取第一个title元素的文本</div><div class="line">response.css(&apos;title::text&apos;)[0].extract()</div><div class="line"># 提取div.tags下的a.tag元素的文本</div><div class="line">response.css(&apos;div.tags a.tag::text&apos;).extract()</div><div class="line"># 提取img元素下的src属性</div><div class="line">response.css(&apos;img&apos;).xpath(&apos;@src&apos;).extract()</div><div class="line"># 提取a标签的href属性</div><div class="line">response.css(&apos;a[href*=image]::attr(href)&apos;).extract()</div><div class="line"># 提取a标签下的img标签的src属性</div><div class="line">response.css(&apos;a[href*=image] img::attr(src)&apos;).extract()</div></pre></td></tr></table></figure>
+<p>使用正则表达式</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"># re（regex）</div><div class="line">应用给定的正则表达式并返回一个包含匹配项的unicode字符串的列表</div><div class="line"># 使用.re()方法</div><div class="line">response.xpath(&apos;//a[contains(@href, &quot;image&quot;)]/text()&apos;).re(r&apos;Name:\s*(.*)&apos;)</div></pre></td></tr></table></figure>
 <h3 id="存储数据"><a href="#存储数据" class="headerlink" title="存储数据"></a>存储数据</h3><p>导出JSON</p>
 <p><code>scrapy crawl quotes -o quotes.json</code></p>
+<p>其中quotes.json为保存的文件名</p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;h3 id=&quot;环境配置初始化&quot;&gt;&lt;a href=&quot;#环境配置初始化&quot; class=&quot;headerlink&quot; title=&quot;环境配置初始化&quot;&gt;&lt;/a&gt;环境配置初始化&lt;/h3&gt;&lt;h4 id=&quot;环境搭建&quot;&gt;&lt;a href=&quot;#环境搭建&quot; class=&quot;headerlink&quot; titl
+      &lt;h3 id=&quot;环境配置初始化&quot;&gt;&lt;a href=&quot;#环境配置初始化&quot; class=&quot;headerlink&quot; title=&quot;环境配置初始化&quot;&gt;&lt;/a&gt;环境配置初始化&lt;/h3&gt;&lt;h4 id=&quot;环境搭建&quot;&gt;&lt;a href=&quot;#环境搭建&quot; class=&quot;headerlink&quot; title=&quot;环境搭建&quot;&gt;&lt;/a&gt;环境搭建&lt;/h4&gt;&lt;p&gt;安装虚拟环境管理工具pyenv&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;请自行搜索安装方法&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;安装科学计算anaconda&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;conda install anaconda&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;安装爬虫框架Scrapy&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;conda install scrapy&lt;/code&gt;&lt;/p&gt;
     
     </summary>
     
@@ -133,19 +165,18 @@
   </entry>
   
   <entry>
-    <title>原型文档框架 | 高效沟通传达方案</title>
+    <title>原型交互框架 | 高效沟通传达方案</title>
     <link href="https://mihawkmah.github.io/2017/08/16/%E5%8E%9F%E5%9E%8B%E6%96%87%E6%A1%A3%E6%A1%86%E6%9E%B6-%E9%AB%98%E6%95%88%E6%B2%9F%E9%80%9A%E4%BC%A0%E8%BE%BE%E6%96%B9%E6%A1%88/"/>
     <id>https://mihawkmah.github.io/2017/08/16/原型文档框架-高效沟通传达方案/</id>
     <published>2017-08-16T07:23:32.000Z</published>
-    <updated>2017-08-28T07:59:33.000Z</updated>
+    <updated>2017-09-08T04:32:00.000Z</updated>
     
-    <content type="html"><![CDATA[<p>当产品的需求落地后，需要将所需的功能高效的传达给UI、前端、研发，这个时候原型设计的好坏就起到了至关重要的作用，需求传达不明确会导致产品反复修改，浪费大量的设计开发资源，下面是我最近总结的原型设计框架，我的习惯是交互直接在原型中标注。</p>
+    <content type="html"><![CDATA[<p>当产品的需求落地后，需要将所需的功能高效的传达给UI、前端、研发，这个时候原型设计的好坏就起到了至关重要的作用，需求传达不明确会导致产品反复修改，浪费大量的设计开发资源，下面是我最近总结的原型交互框架，我的习惯是交互直接在原型中标注。</p>
 <blockquote>
 <p>在允许的范围内（不同的输入输出限制下），努力寻找、选择、创造一些套路，影响用户行为，让用户以更好的体验完成自身目标以及产品目标。</p>
 </blockquote>
 <a id="more"></a>
-<p><img src="/2017/08/16/原型文档框架-高效沟通传达方案/文档框架.jpg" alt="文档框架"></p>
-<p><img src="/2017/08/16/原型文档框架-高效沟通传达方案/原型框架.jpg" alt="原型框架"></p>
+<p><img src="/2017/08/16/原型文档框架-高效沟通传达方案/原型交互框架-高效沟通传达方案/原型框架.jpg" alt="原型框架"></p>
 <blockquote>
 <p>测试文档模板：编号、功能元素、前置条件、操作步骤、预期结果、是否通过、实际结果、反馈建议</p>
 </blockquote>
@@ -153,7 +184,7 @@
     
     <summary type="html">
     
-      &lt;p&gt;当产品的需求落地后，需要将所需的功能高效的传达给UI、前端、研发，这个时候原型设计的好坏就起到了至关重要的作用，需求传达不明确会导致产品反复修改，浪费大量的设计开发资源，下面是我最近总结的原型设计框架，我的习惯是交互直接在原型中标注。&lt;/p&gt;
+      &lt;p&gt;当产品的需求落地后，需要将所需的功能高效的传达给UI、前端、研发，这个时候原型设计的好坏就起到了至关重要的作用，需求传达不明确会导致产品反复修改，浪费大量的设计开发资源，下面是我最近总结的原型交互框架，我的习惯是交互直接在原型中标注。&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;在允许的范围内（不同的输入输出限制下），努力寻找、选择、创造一些套路，影响用户行为，让用户以更好的体验完成自身目标以及产品目标。&lt;/p&gt;
 &lt;/blockquote&gt;
