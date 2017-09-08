@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://mihawkmah.github.io/"/>
-  <updated>2017-09-08T04:45:05.000Z</updated>
+  <updated>2017-09-07T06:38:23.000Z</updated>
   <id>https://mihawkmah.github.io/</id>
   
   <author>
@@ -14,27 +14,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>产品文档框架-缜密的产品之术</title>
-    <link href="https://mihawkmah.github.io/2017/09/08/%E4%BA%A7%E5%93%81%E6%96%87%E6%A1%A3%E6%A1%86%E6%9E%B6-%E7%BC%9C%E5%AF%86%E7%9A%84%E4%BA%A7%E5%93%81%E4%B9%8B%E6%9C%AF/"/>
-    <id>https://mihawkmah.github.io/2017/09/08/产品文档框架-缜密的产品之术/</id>
-    <published>2017-09-08T04:36:07.000Z</published>
-    <updated>2017-09-08T04:45:05.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>原型+标注的形式可以很好的传达页面逻辑及功能需求，在此基础上，需要使用文档的形式将APP全局功能及异常情况处理落地下来提交给研发，将产品原型中无法顾及到的内容表述清楚。</p>
-<a id="more"></a>
-<p><img src="/2017/09/08/产品文档框架-缜密的产品之术/Users/Mihawk/Documents/GitHub/hexo/source/_posts/产品文档框架-缜密的产品之术/文档框架.jpg" alt="文档框架"></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;原型+标注的形式可以很好的传达页面逻辑及功能需求，在此基础上，需要使用文档的形式将APP全局功能及异常情况处理落地下来提交给研发，将产品原型中无法顾及到的内容表述清楚。&lt;/p&gt;
-    
-    </summary>
-    
-    
-  </entry>
   
   <entry>
     <title>Scrapy爬虫入门[一] | 环境配置及基本使用</title>
@@ -165,9 +144,30 @@
   </entry>
   
   <entry>
+    <title>产品文档框架-缜密的产品之术</title>
+    <link href="https://mihawkmah.github.io/2017/08/16/%E4%BA%A7%E5%93%81%E6%96%87%E6%A1%A3%E6%A1%86%E6%9E%B6-%E7%BC%9C%E5%AF%86%E7%9A%84%E4%BA%A7%E5%93%81%E4%B9%8B%E6%9C%AF/"/>
+    <id>https://mihawkmah.github.io/2017/08/16/产品文档框架-缜密的产品之术/</id>
+    <published>2017-08-16T07:24:32.000Z</published>
+    <updated>2017-09-08T06:46:28.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>原型+标注的形式可以很好的传达页面逻辑及功能需求，在此基础上，需要使用文档的形式将APP全局功能及异常情况处理落地下来提交给研发，将产品原型中无法顾及到的内容表述清楚。</p>
+<a id="more"></a>
+<p><img src="/2017/08/16/产品文档框架-缜密的产品之术/Users/Mihawk/Documents/GitHub/hexo/source/_posts/产品文档框架-缜密的产品之术/文档框架.jpg" alt="文档框架"></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;原型+标注的形式可以很好的传达页面逻辑及功能需求，在此基础上，需要使用文档的形式将APP全局功能及异常情况处理落地下来提交给研发，将产品原型中无法顾及到的内容表述清楚。&lt;/p&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title>原型交互框架 | 高效沟通传达方案</title>
-    <link href="https://mihawkmah.github.io/2017/08/16/%E5%8E%9F%E5%9E%8B%E6%96%87%E6%A1%A3%E6%A1%86%E6%9E%B6-%E9%AB%98%E6%95%88%E6%B2%9F%E9%80%9A%E4%BC%A0%E8%BE%BE%E6%96%B9%E6%A1%88/"/>
-    <id>https://mihawkmah.github.io/2017/08/16/原型文档框架-高效沟通传达方案/</id>
+    <link href="https://mihawkmah.github.io/2017/08/16/%E5%8E%9F%E5%9E%8B%E4%BA%A4%E4%BA%92%E6%A1%86%E6%9E%B6-%E9%AB%98%E6%95%88%E6%B2%9F%E9%80%9A%E4%BC%A0%E8%BE%BE%E6%96%B9%E6%A1%88/"/>
+    <id>https://mihawkmah.github.io/2017/08/16/原型交互框架-高效沟通传达方案/</id>
     <published>2017-08-16T07:23:32.000Z</published>
     <updated>2017-09-08T04:32:00.000Z</updated>
     
@@ -176,7 +176,7 @@
 <p>在允许的范围内（不同的输入输出限制下），努力寻找、选择、创造一些套路，影响用户行为，让用户以更好的体验完成自身目标以及产品目标。</p>
 </blockquote>
 <a id="more"></a>
-<p><img src="/2017/08/16/原型文档框架-高效沟通传达方案/原型交互框架-高效沟通传达方案/原型框架.jpg" alt="原型框架"></p>
+<p><img src="/2017/08/16/原型交互框架-高效沟通传达方案/原型框架.jpg" alt="原型框架"></p>
 <blockquote>
 <p>测试文档模板：编号、功能元素、前置条件、操作步骤、预期结果、是否通过、实际结果、反馈建议</p>
 </blockquote>
