@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://mihawkmah.github.io/"/>
-  <updated>2017-09-12T07:30:26.000Z</updated>
+  <updated>2017-09-12T07:33:27.000Z</updated>
   <id>https://mihawkmah.github.io/</id>
   
   <author>
@@ -20,10 +20,11 @@
     <link href="https://mihawkmah.github.io/2017/09/12/Scrapy%E7%88%AC%E8%99%AB%E5%85%A5%E9%97%A8-%E4%BA%8C-%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86%E4%B8%8E%E5%AD%98%E5%82%A8/"/>
     <id>https://mihawkmah.github.io/2017/09/12/Scrapy爬虫入门-二-数据处理与存储/</id>
     <published>2017-09-12T07:29:56.000Z</published>
-    <updated>2017-09-12T07:30:26.000Z</updated>
+    <updated>2017-09-12T07:33:27.000Z</updated>
     
     <content type="html"><![CDATA[<h3 id="使用项目item"><a href="#使用项目item" class="headerlink" title="使用项目item"></a>使用项目item</h3><p>Scrapy提供了item类，是装载抓取数据的容器。声明类似于Flask框架中的Models。在tutorial目录下的iterms.py文件编辑。</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">import scrapy</div><div class="line"></div><div class="line">class Product(scrapy.Item):</div><div class="line">    name = scrapy.Field()</div><div class="line">    price = scrapy.Field()</div><div class="line">    stock = scrapy.Field()</div><div class="line">    last_updated = scrapy.Field(serializer=str)</div></pre></td></tr></table></figure>
+<a id="more"></a>
 <h4 id="插入数据"><a href="#插入数据" class="headerlink" title="插入数据"></a>插入数据</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">product [ &apos;last_updated&apos; ]  =  &apos;today&apos;</div></pre></td></tr></table></figure>
 <h4 id="查询数据"><a href="#查询数据" class="headerlink" title="查询数据"></a>查询数据</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"># 查询product的数据主键</div><div class="line">product.keys()</div><div class="line"># 查询product中的所有数据</div><div class="line">product.items()</div></pre></td></tr></table></figure>
 <h4 id="复制项目"><a href="#复制项目" class="headerlink" title="复制项目"></a>复制项目</h4><p><code>product2 = product.copy()</code></p>
@@ -44,7 +45,8 @@
     
     <summary type="html">
     
-      &lt;h3 id=&quot;使用项目item&quot;&gt;&lt;a href=&quot;#使用项目item&quot; class=&quot;headerlink&quot; title=&quot;使用项目item&quot;&gt;&lt;/a&gt;使用项目item&lt;/h3&gt;&lt;p&gt;Scrapy提供了item类，是装载抓取数据的容器。声明类似于Flask框架中的Models
+      &lt;h3 id=&quot;使用项目item&quot;&gt;&lt;a href=&quot;#使用项目item&quot; class=&quot;headerlink&quot; title=&quot;使用项目item&quot;&gt;&lt;/a&gt;使用项目item&lt;/h3&gt;&lt;p&gt;Scrapy提供了item类，是装载抓取数据的容器。声明类似于Flask框架中的Models。在tutorial目录下的iterms.py文件编辑。&lt;/p&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;3&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;4&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;5&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;6&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;7&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;import scrapy&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;class Product(scrapy.Item):&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;    name = scrapy.Field()&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;    price = scrapy.Field()&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;    stock = scrapy.Field()&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;    last_updated = scrapy.Field(serializer=str)&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
     
     </summary>
     
