@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://mihawkmah.github.io/"/>
-  <updated>2017-09-12T08:00:14.000Z</updated>
+  <updated>2017-09-12T08:12:50.000Z</updated>
   <id>https://mihawkmah.github.io/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="https://mihawkmah.github.io/2017/09/12/Scrapy%E7%88%AC%E8%99%AB%E5%85%A5%E9%97%A8-%E4%BA%8C-%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86%E4%B8%8E%E5%AD%98%E5%82%A8/"/>
     <id>https://mihawkmah.github.io/2017/09/12/Scrapy爬虫入门-二-数据处理与存储/</id>
     <published>2017-09-12T07:29:56.000Z</published>
-    <updated>2017-09-12T08:00:14.000Z</updated>
+    <updated>2017-09-12T08:12:50.000Z</updated>
     
     <content type="html"><![CDATA[<h3 id="使用项目item"><a href="#使用项目item" class="headerlink" title="使用项目item"></a>使用项目item</h3><p>Scrapy提供了item类，是装载抓取数据的容器。声明类似于Flask框架中的Models。在tutorial目录下的iterms.py文件编辑。</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">import scrapy</div><div class="line"></div><div class="line">class Product(scrapy.Item):</div><div class="line">    name = scrapy.Field()</div><div class="line">    price = scrapy.Field()</div><div class="line">    stock = scrapy.Field()</div><div class="line">    last_updated = scrapy.Field(serializer=str)</div></pre></td></tr></table></figure>
@@ -44,6 +44,14 @@
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">MONGO_URI = &quot;mongodb://localhost:27017&quot;;</div><div class="line">MONGO_DATABASE = &quot;soufang&quot;;</div></pre></td></tr></table></figure>
 <p>在pipelines.py中定义一个函数连接数据库，然后定义一个函数去处理被解析的数据</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div></pre></td><td class="code"><pre><div class="line">import pymongo</div><div class="line"></div><div class="line">class MongoPipeline(object):</div><div class="line"></div><div class="line">    collection_name = &apos;scrapy_items&apos;</div><div class="line"></div><div class="line">    def __init__(self, mongo_uri, mongo_db):</div><div class="line">        self.mongo_uri = mongo_uri</div><div class="line">        self.mongo_db = mongo_db</div><div class="line"></div><div class="line">    @classmethod</div><div class="line">    def from_crawler(cls, crawler):</div><div class="line">        return cls(</div><div class="line">            mongo_uri=crawler.settings.get(&apos;MONGO_URI&apos;),</div><div class="line">            mongo_db=crawler.settings.get(&apos;MONGO_DATABASE&apos;, &apos;items&apos;)</div><div class="line">        )</div><div class="line"></div><div class="line">    def open_spider(self, spider):</div><div class="line">        self.client = pymongo.MongoClient(self.mongo_uri)</div><div class="line">        self.db = self.client[self.mongo_db]</div><div class="line"></div><div class="line">    def close_spider(self, spider):</div><div class="line">        self.client.close()</div><div class="line"></div><div class="line">    def process_item(self, item, spider):</div><div class="line">        self.db[self.collection_name].insert(dict(item))</div><div class="line">        return item</div></pre></td></tr></table></figure>
+<h4 id="附录：Mac安装MongoDB"><a href="#附录：Mac安装MongoDB" class="headerlink" title="附录：Mac安装MongoDB"></a>附录：Mac安装MongoDB</h4><p>更新Homebrew的包数据库</p>
+<p><code>brew update</code></p>
+<p>安装MongoDB</p>
+<p><code>brew install mongodb</code></p>
+<p>启动mongodb</p>
+<p><code>mongod</code></p>
+<p>连接到mongo</p>
+<p><code>mongo</code></p>
 ]]></content>
     
     <summary type="html">
@@ -188,7 +196,7 @@
     <link href="https://mihawkmah.github.io/2017/09/07/Scrapy%E7%88%AC%E8%99%AB%E5%85%A5%E9%97%A8%5B%E4%B8%80%5D-%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%E5%8F%8A%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/"/>
     <id>https://mihawkmah.github.io/2017/09/07/Scrapy爬虫入门[一]-环境配置及基本使用/</id>
     <published>2017-09-07T03:11:24.000Z</published>
-    <updated>2017-09-07T06:38:23.000Z</updated>
+    <updated>2017-09-13T08:58:01.000Z</updated>
     
     <content type="html"><![CDATA[<h3 id="环境配置初始化"><a href="#环境配置初始化" class="headerlink" title="环境配置初始化"></a>环境配置初始化</h3><h4 id="环境搭建"><a href="#环境搭建" class="headerlink" title="环境搭建"></a>环境搭建</h4><p>安装虚拟环境管理工具pyenv</p>
 <p><code>请自行搜索安装方法</code></p>
@@ -199,7 +207,7 @@
 <a id="more"></a>
 <h4 id="创建Scrapy项目"><a href="#创建Scrapy项目" class="headerlink" title="创建Scrapy项目"></a>创建Scrapy项目</h4><p><code>scrapy startproject tutorial</code>  其中tutorial为项目名称</p>
 <p>项目结构</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div></pre></td><td class="code"><pre><div class="line">tutorial/</div><div class="line">    scrapy.cfg            # 部署配置文件</div><div class="line"></div><div class="line">    tutorial/             # Python模块,代码写在这个目录下</div><div class="line">        __init__.py</div><div class="line"></div><div class="line">        items.py          # 项目项定义文件</div><div class="line"></div><div class="line">        pipelines.py      # 项目管道文件</div><div class="line"></div><div class="line">        settings.py       # 项目设置文件</div><div class="line"></div><div class="line">        spiders/          # 我们的爬虫/蜘蛛 目录</div><div class="line">            __init__.py</div></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">scrapy.cfg: 项目的配置文件；（用于发布到服务器）</div><div class="line">tutorial/: 该项目文件夹。之后将在此编写Python代码。</div><div class="line">tutorial/items.py: 项目中的item文件;（定义结构化数据字段field）.</div><div class="line">tutorial/pipelines.py: 项目中的pipelines文件;（用于存放执行后期数据处理的功能，定义如何存储结构化数据)</div><div class="line">tutorial/settings.py: 项目的设置文件；(如何修改User-Agent，设置爬取时间间隔，设置代理，配置中间件等等)</div><div class="line">tutorial/spiders/: 放置spider代码的目录;（编写爬取网站规则）</div></pre></td></tr></table></figure>
 <p>编写爬虫</p>
 <p><code>在路径下新建py文件：tutorial/spiders/quotes_spider.py</code></p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div></pre></td><td class="code"><pre><div class="line">import scrapy</div><div class="line"></div><div class="line">class QuotesSpider(scrapy.Spider):</div><div class="line">    name = &quot;quotes&quot;</div><div class="line">    start_urls = [</div><div class="line">        &apos;http://quotes.toscrape.com/page/1/&apos;,</div><div class="line">        &apos;http://quotes.toscrape.com/page/2/&apos;,</div><div class="line">    ]</div><div class="line"></div><div class="line">    def parse(self, response):</div><div class="line">        for quote in response.css(&apos;div.quote&apos;):</div><div class="line">            yield &#123;</div><div class="line">                &apos;text&apos;: quote.css(&apos;span.text::text&apos;).extract_first(),</div><div class="line">                &apos;author&apos;: quote.css(&apos;small.author::text&apos;).extract_first(),</div><div class="line">                &apos;tags&apos;: quote.css(&apos;div.tags a.tag::text&apos;).extract(),</div><div class="line">            &#125;</div></pre></td></tr></table></figure>
@@ -210,11 +218,13 @@
 <p>执行爬虫</p>
 <p><code>scrapy crawl quotes</code></p>
 <p>其中quotes是编写的爬虫文件中定义的名称</p>
-<h3 id="提取数据"><a href="#提取数据" class="headerlink" title="提取数据"></a>提取数据</h3><p>使用scrapy shell提取数据</p>
+<h3 id="提取数据"><a href="#提取数据" class="headerlink" title="提取数据"></a>提取数据</h3><p>使用scrapy shell提取数据：</p>
 <p><code>scrapy shell &#39;http://quotes.toscrape.com&#39;</code></p>
-<p>使用Chrome插件</p>
+<p>使用Chrome插件：</p>
 <p><code>SelectorGadget</code></p>
-<p>CSS选择数据</p>
+<p>Selector的四个基本方法：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">xpath(): 传入xpath表达式，返回该表达式所对应的所有节点的selector list列表 。</div><div class="line">css(): 传入CSS表达式，返回该表达式所对应的所有节点的selector list列表.</div><div class="line">extract(): 序列化该节点为unicode字符串并返回list。</div><div class="line">re(): 根据传入的正则表达式对数据进行提取，返回unicode字符串list列表。</div></pre></td></tr></table></figure>
+<p>CSS选择数据：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div></pre></td><td class="code"><pre><div class="line"># extract（）</div><div class="line">调用.extract()此列表中每个元素的方法，并将其结果作为unicode字符串列表返回展平</div><div class="line"># 提取样式为quote的title元素</div><div class="line">response.css(&apos;title.quote&apos;)</div><div class="line"># 提取title元素的文本</div><div class="line">response.css(&apos;title::text&apos;).extract()</div><div class="line"># 提取第一个title元素的文本</div><div class="line">response.css(&apos;title::text&apos;)[0].extract()</div><div class="line"># 提取div.tags下的a.tag元素的文本</div><div class="line">response.css(&apos;div.tags a.tag::text&apos;).extract()</div><div class="line"># 提取img元素下的src属性</div><div class="line">response.css(&apos;img&apos;).xpath(&apos;@src&apos;).extract()</div><div class="line"># 提取a标签的href属性</div><div class="line">response.css(&apos;a[href*=image]::attr(href)&apos;).extract()</div><div class="line"># 提取a标签下的img标签的src属性</div><div class="line">response.css(&apos;a[href*=image] img::attr(src)&apos;).extract()</div></pre></td></tr></table></figure>
 <p>使用正则表达式</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"># re（regex）</div><div class="line">应用给定的正则表达式并返回一个包含匹配项的unicode字符串的列表</div><div class="line"># 使用.re()方法</div><div class="line">response.xpath(&apos;//a[contains(@href, &quot;image&quot;)]/text()&apos;).re(r&apos;Name:\s*(.*)&apos;)</div></pre></td></tr></table></figure>
