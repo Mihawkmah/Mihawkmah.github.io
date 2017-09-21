@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://mihawkmah.github.io/"/>
-  <updated>2017-09-21T08:06:18.000Z</updated>
+  <updated>2017-09-21T08:16:02.000Z</updated>
   <id>https://mihawkmah.github.io/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="https://mihawkmah.github.io/2017/09/21/Scrapy%E7%88%AC%E8%99%AB%E5%85%A5%E9%97%A8-%E4%B8%89-%E5%AE%9E%E6%88%98%E7%88%AC%E5%8F%96%E6%97%B6%E5%85%89%E7%BD%91Top100%E7%94%B5%E5%BD%B1/"/>
     <id>https://mihawkmah.github.io/2017/09/21/Scrapy爬虫入门-三-实战爬取时光网Top100电影/</id>
     <published>2017-09-21T08:04:21.000Z</published>
-    <updated>2017-09-21T08:06:18.000Z</updated>
+    <updated>2017-09-21T08:16:02.000Z</updated>
     
     <content type="html"><![CDATA[<h3 id="初始化爬虫"><a href="#初始化爬虫" class="headerlink" title="初始化爬虫"></a>初始化爬虫</h3><h4 id="抓取维度指标"><a href="#抓取维度指标" class="headerlink" title="抓取维度指标"></a>抓取维度指标</h4><ul>
 <li>电影排名</li>
@@ -33,6 +33,7 @@
 <li>评分人数</li>
 </ul>
 <h4 id="目标链接"><a href="#目标链接" class="headerlink" title="目标链接"></a>目标链接</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">http://www.mtime.com/top/movie/top100/</div></pre></td></tr></table></figure>
+<a id="more"></a>
 <h4 id="搭建爬虫"><a href="#搭建爬虫" class="headerlink" title="搭建爬虫"></a>搭建爬虫</h4><p><code>scrapy startproject mtime</code></p>
 <h3 id="编写爬虫"><a href="#编写爬虫" class="headerlink" title="编写爬虫"></a>编写爬虫</h3><h4 id="iterms-py"><a href="#iterms-py" class="headerlink" title="iterms.py"></a>iterms.py</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">class MtimeItem(scrapy.Item):</div><div class="line">    rank = scrapy.Field()</div><div class="line">    name = scrapy.Field()</div><div class="line">    direct = scrapy.Field()</div><div class="line">    role = scrapy.Field()</div><div class="line">    type = scrapy.Field()</div><div class="line">    describe = scrapy.Field()</div><div class="line">    point = scrapy.Field()</div><div class="line">    pointnum = scrapy.Field()</div></pre></td></tr></table></figure>
 <h4 id="配置settings-py"><a href="#配置settings-py" class="headerlink" title="配置settings.py"></a>配置settings.py</h4><p>使用chrome浏览器检查-Network查看Request Headers信息</p>
@@ -50,7 +51,17 @@
     
     <summary type="html">
     
-      &lt;h3 id=&quot;初始化爬虫&quot;&gt;&lt;a href=&quot;#初始化爬虫&quot; class=&quot;headerlink&quot; title=&quot;初始化爬虫&quot;&gt;&lt;/a&gt;初始化爬虫&lt;/h3&gt;&lt;h4 id=&quot;抓取维度指标&quot;&gt;&lt;a href=&quot;#抓取维度指标&quot; class=&quot;headerlink&quot; title=&quot;抓
+      &lt;h3 id=&quot;初始化爬虫&quot;&gt;&lt;a href=&quot;#初始化爬虫&quot; class=&quot;headerlink&quot; title=&quot;初始化爬虫&quot;&gt;&lt;/a&gt;初始化爬虫&lt;/h3&gt;&lt;h4 id=&quot;抓取维度指标&quot;&gt;&lt;a href=&quot;#抓取维度指标&quot; class=&quot;headerlink&quot; title=&quot;抓取维度指标&quot;&gt;&lt;/a&gt;抓取维度指标&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;电影排名&lt;/li&gt;
+&lt;li&gt;电影名称&lt;/li&gt;
+&lt;li&gt;导演&lt;/li&gt;
+&lt;li&gt;主演&lt;/li&gt;
+&lt;li&gt;类型&lt;/li&gt;
+&lt;li&gt;电影描述&lt;/li&gt;
+&lt;li&gt;评分&lt;/li&gt;
+&lt;li&gt;评分人数&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;目标链接&quot;&gt;&lt;a href=&quot;#目标链接&quot; class=&quot;headerlink&quot; title=&quot;目标链接&quot;&gt;&lt;/a&gt;目标链接&lt;/h4&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;http://www.mtime.com/top/movie/top100/&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
     
     </summary>
     
