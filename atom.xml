@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://mihawkmah.github.io/"/>
-  <updated>2017-09-21T08:16:02.000Z</updated>
+  <updated>2017-09-30T03:38:17.000Z</updated>
   <id>https://mihawkmah.github.io/</id>
   
   <author>
@@ -16,11 +16,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Scrapy爬虫入门[三]-实战爬取时光网Top100电影</title>
+    <title>Scrapy爬虫入门[三] | 实战爬取时光网Top100电影</title>
     <link href="https://mihawkmah.github.io/2017/09/21/Scrapy%E7%88%AC%E8%99%AB%E5%85%A5%E9%97%A8-%E4%B8%89-%E5%AE%9E%E6%88%98%E7%88%AC%E5%8F%96%E6%97%B6%E5%85%89%E7%BD%91Top100%E7%94%B5%E5%BD%B1/"/>
     <id>https://mihawkmah.github.io/2017/09/21/Scrapy爬虫入门-三-实战爬取时光网Top100电影/</id>
     <published>2017-09-21T08:04:21.000Z</published>
-    <updated>2017-09-21T08:16:02.000Z</updated>
+    <updated>2017-09-30T03:38:17.000Z</updated>
     
     <content type="html"><![CDATA[<h3 id="初始化爬虫"><a href="#初始化爬虫" class="headerlink" title="初始化爬虫"></a>初始化爬虫</h3><h4 id="抓取维度指标"><a href="#抓取维度指标" class="headerlink" title="抓取维度指标"></a>抓取维度指标</h4><ul>
 <li>电影排名</li>
@@ -435,9 +435,22 @@
     <link href="https://mihawkmah.github.io/2017/08/16/%E4%BA%A7%E5%93%81%E6%96%87%E6%A1%A3%E6%A1%86%E6%9E%B6-%E7%BC%9C%E5%AF%86%E7%9A%84%E4%BA%A7%E5%93%81%E4%B9%8B%E6%9C%AF/"/>
     <id>https://mihawkmah.github.io/2017/08/16/产品文档框架-缜密的产品之术/</id>
     <published>2017-08-16T07:24:32.000Z</published>
-    <updated>2017-09-08T06:48:15.000Z</updated>
+    <updated>2017-09-29T03:43:22.000Z</updated>
     
     <content type="html"><![CDATA[<p>原型+标注的形式可以很好的传达页面逻辑及功能需求，在此基础上，需要使用文档的形式将APP全局功能及异常情况处理落地下来提交给研发，将产品原型中无法顾及到的内容表述清楚。</p>
+<blockquote>
+<ol>
+<li>明确所有场景和使用人群</li>
+<li>交互逻辑无缺失</li>
+<li>异常场景不遗漏</li>
+<li>异常状态有说明</li>
+<li>手势操作不遗漏</li>
+<li>关键字段有规则定义</li>
+<li>极限情况有定义</li>
+<li>是否涉及到多种角色和权限</li>
+<li>刷新、加载、转场说明</li>
+</ol>
+</blockquote>
 <a id="more"></a>
 <p><img src="/2017/08/16/产品文档框架-缜密的产品之术/文档框架.jpg" alt="文档框架"></p>
 ]]></content>
@@ -445,6 +458,19 @@
     <summary type="html">
     
       &lt;p&gt;原型+标注的形式可以很好的传达页面逻辑及功能需求，在此基础上，需要使用文档的形式将APP全局功能及异常情况处理落地下来提交给研发，将产品原型中无法顾及到的内容表述清楚。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;明确所有场景和使用人群&lt;/li&gt;
+&lt;li&gt;交互逻辑无缺失&lt;/li&gt;
+&lt;li&gt;异常场景不遗漏&lt;/li&gt;
+&lt;li&gt;异常状态有说明&lt;/li&gt;
+&lt;li&gt;手势操作不遗漏&lt;/li&gt;
+&lt;li&gt;关键字段有规则定义&lt;/li&gt;
+&lt;li&gt;极限情况有定义&lt;/li&gt;
+&lt;li&gt;是否涉及到多种角色和权限&lt;/li&gt;
+&lt;li&gt;刷新、加载、转场说明&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
     
     </summary>
     
