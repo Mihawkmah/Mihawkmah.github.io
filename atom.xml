@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://mihawkmah.github.io/"/>
-  <updated>2017-12-19T09:38:20.000Z</updated>
+  <updated>2017-12-19T09:41:30.000Z</updated>
   <id>https://mihawkmah.github.io/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="https://mihawkmah.github.io/2017/12/19/%E7%A4%BE%E4%BC%9A%E5%8C%96%E8%81%86%E5%90%AC%E7%B3%BB%E7%BB%9F%E9%9C%80%E6%B1%82%E5%88%86%E6%9E%90/"/>
     <id>https://mihawkmah.github.io/2017/12/19/社会化聆听系统需求分析/</id>
     <published>2017-12-19T09:24:16.000Z</published>
-    <updated>2017-12-19T09:38:20.000Z</updated>
+    <updated>2017-12-19T09:41:30.000Z</updated>
     
     <content type="html"><![CDATA[<h3 id="1-项目分析"><a href="#1-项目分析" class="headerlink" title="1 项目分析"></a>1 项目分析</h3><h4 id="1-1-需求调研"><a href="#1-1-需求调研" class="headerlink" title="1.1 需求调研"></a>1.1 需求调研</h4><p><img src="/2017/12/19/社会化聆听系统需求分析/目标用户.png" alt="目标用户"></p>
 <table>
@@ -49,6 +49,7 @@
 </tr>
 </tbody>
 </table>
+<a id="more"></a>
 <p>通过采集范围和分析频次两个维度对现阶段市场的社会化聆听需求进行拆解，可以得出如下分布：</p>
 <p><img src="/2017/12/19/社会化聆听系统需求分析/需求分布.png" alt="需求分布"></p>
 <h4 id="1-2-头部竞品解决方案"><a href="#1-2-头部竞品解决方案" class="headerlink" title="1.2 头部竞品解决方案"></a>1.2 头部竞品解决方案</h4><table>
@@ -171,7 +172,33 @@
     
     <summary type="html">
     
-      &lt;h3 id=&quot;1-项目分析&quot;&gt;&lt;a href=&quot;#1-项目分析&quot; class=&quot;headerlink&quot; title=&quot;1 项目分析&quot;&gt;&lt;/a&gt;1 项目分析&lt;/h3&gt;&lt;h4 id=&quot;1-1-需求调研&quot;&gt;&lt;a href=&quot;#1-1-需求调研&quot; class=&quot;headerlink&quot; 
+      &lt;h3 id=&quot;1-项目分析&quot;&gt;&lt;a href=&quot;#1-项目分析&quot; class=&quot;headerlink&quot; title=&quot;1 项目分析&quot;&gt;&lt;/a&gt;1 项目分析&lt;/h3&gt;&lt;h4 id=&quot;1-1-需求调研&quot;&gt;&lt;a href=&quot;#1-1-需求调研&quot; class=&quot;headerlink&quot; title=&quot;1.1 需求调研&quot;&gt;&lt;/a&gt;1.1 需求调研&lt;/h4&gt;&lt;p&gt;&lt;img src=&quot;/2017/12/19/社会化聆听系统需求分析/目标用户.png&quot; alt=&quot;目标用户&quot;&gt;&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;目标用户&lt;/th&gt;
+&lt;th&gt;需求场景梳理&lt;/th&gt;
+&lt;th&gt;遇到问题&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;政府&lt;/td&gt;
+&lt;td&gt;对于重大政治活动、公共突发事件、热点问题进行舆情监测，实时掌握事件的进展，尽早主动准确动态发布官方消息即时应对。&lt;/td&gt;
+&lt;td&gt;人工无法实时全面监测，对于事件的公众舆论无法实时了解，同时对于事件的走向无法实时预估。部分突发事件损害政府公信力。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;企业&lt;/td&gt;
+&lt;td&gt;对企业负面信息实时有效的监测，判断舆论趋势并谋划公关策略。分析行业、市场、产品、竞争对手、消费者，为企业优化产品和服务以及决策提供数据基础。&lt;/td&gt;
+&lt;td&gt;无法有效监控突发事件，进而无法实时应对，造成长期积累的企业形象受破坏，口碑受损，给企业发展带来极大的负面影响。在企业经营的各个过程中需要数据支撑决策。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;个人&lt;/td&gt;
+&lt;td&gt;公司产品、运营等相关职位工作人员制作相关分析报告。高校师生进行相关研究。中小型企业调查行业市场环境、产品服务、竞争对手、消费者。&lt;/td&gt;
+&lt;td&gt;互联网资讯很多，无法一条条去看去过滤。需要宏观层面的数据，手动搜集处理工作量大。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
     
     </summary>
     
