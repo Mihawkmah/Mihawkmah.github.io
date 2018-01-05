@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://mihawkmah.github.io/"/>
-  <updated>2018-01-01T14:48:17.000Z</updated>
+  <updated>2018-01-05T05:02:48.000Z</updated>
   <id>https://mihawkmah.github.io/</id>
   
   <author>
@@ -14,6 +14,192 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>使用VUE和Flask前后端分离开发Todo单页应用</title>
+    <link href="https://mihawkmah.github.io/2018/01/05/%E4%BD%BF%E7%94%A8VUE%E5%92%8CFlask%E5%89%8D%E5%90%8E%E7%AB%AF%E5%88%86%E7%A6%BB%E5%BC%80%E5%8F%91Todo%E5%8D%95%E9%A1%B5%E5%BA%94%E7%94%A8/"/>
+    <id>https://mihawkmah.github.io/2018/01/05/使用VUE和Flask前后端分离开发Todo单页应用/</id>
+    <published>2018-01-05T05:01:08.000Z</published>
+    <updated>2018-01-05T05:02:48.000Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="Vue环境配置"><a href="#Vue环境配置" class="headerlink" title="Vue环境配置"></a>Vue环境配置</h3><p>1、安装NodeJs的同时安装了npm包管理工具。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"># 查看版本</div><div class="line">$ npm -v</div><div class="line">#升级 npm</div><div class="line">$ sudo npm install npm -g</div></pre></td></tr></table></figure>
+<p>2、命令行工具（CLI）</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"># 全局安装 webpack</div><div class="line">$ npm install webpack -g</div><div class="line"># 全局安装 vue-cli</div><div class="line">$ npm install --global vue-cli</div><div class="line"># 创建一个基于 webpack 模板的新项目</div><div class="line">$ vue init webpack my-project</div><div class="line"># 安装项目依赖</div><div class="line">$ cd my-project</div><div class="line">$ npm install</div><div class="line"># 运行项目，运行后就可以在浏览器打开链接http://localhost:8080/</div><div class="line">$ npm run dev</div></pre></td></tr></table></figure>
+<p>3、查看版本</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"># 查看webpack版本</div><div class="line">webpack -v</div><div class="line"># 查看vue版本</div><div class="line">vue -V</div></pre></td></tr></table></figure>
+<h3 id="使用elementUi"><a href="#使用elementUi" class="headerlink" title="使用elementUi"></a>使用elementUi</h3><p>1、安装依赖，让webpack可以解析css文件</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm install --save-dev style-loader css-loader file-loader</div></pre></td></tr></table></figure>
+<p>2、npm安装elementUi模块</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm i element-ui -S</div></pre></td></tr></table></figure>
+<h3 id="需求分析"><a href="#需求分析" class="headerlink" title="需求分析"></a>需求分析</h3><p><img src="/2018/01/05/使用VUE和Flask前后端分离开发Todo单页应用/todo.png" alt="todo"></p>
+<h4 id="1、接口分析"><a href="#1、接口分析" class="headerlink" title="1、接口分析"></a>1、接口分析</h4><ul>
+<li>获取清单列表</li>
+<li>新建清单</li>
+<li>删除清单</li>
+<li>修改清单名称</li>
+<li>获取任务列表</li>
+<li>新建任务</li>
+<li>删除任务</li>
+<li>修改任务完成状态</li>
+<li>修改任务名称</li>
+</ul>
+<h4 id="2、组件分析"><a href="#2、组件分析" class="headerlink" title="2、组件分析"></a>2、组件分析</h4><ul>
+<li>app.vue  //最外层根组件</li>
+<li>layouts.vue  //布局组件</li>
+<li>list.vue  //清单列表</li>
+<li>todo.vue  //任务列表</li>
+<li>item.vue  //单项任务</li>
+</ul>
+<h4 id="3、项目结构（-为新建文件夹）"><a href="#3、项目结构（-为新建文件夹）" class="headerlink" title="3、项目结构（*为新建文件夹）"></a>3、项目结构（*为新建文件夹）</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div></pre></td><td class="code"><pre><div class="line">├── build              // 构建服务和webpack配置</div><div class="line">├── config             // 项目不同环境的配置</div><div class="line">├── dist               // 项目build目录</div><div class="line">├── index.html         // 项目入口文件</div><div class="line">├── package.json       // 项目配置文件</div><div class="line">├── src                // 生产目录</div><div class="line">│   ├── assets         // 图片资源</div><div class="line">│   ├── common *       // 公共的css js 资源</div><div class="line">│   ├── components     // 各种组件 </div><div class="line">│   ├── moke *         // 本地静态数据管理文件</div><div class="line">│   ├── App.vue        // 主页面</div><div class="line">│   ├── vuex *         // vuex状态管理器</div><div class="line">│   ├── router         // 路由配置器</div><div class="line">│   └── main.js        // Webpack 预编译入口</div></pre></td></tr></table></figure>
+<h3 id="后端使用Flask构建web-service"><a href="#后端使用Flask构建web-service" class="headerlink" title="后端使用Flask构建web service"></a>后端使用Flask构建web service</h3><h4 id="接口-amp-数据库规划"><a href="#接口-amp-数据库规划" class="headerlink" title="接口&amp;数据库规划"></a>接口&amp;数据库规划</h4><table>
+<thead>
+<tr>
+<th>HTTP 方法</th>
+<th>行为</th>
+<th>示例</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GET</td>
+<td>获取资源的信息</td>
+<td><a href="http://example.com/api/orders" target="_blank" rel="external">http://example.com/api/orders</a></td>
+</tr>
+<tr>
+<td>GET</td>
+<td>获取某个特定资源的信息</td>
+<td><a href="http://example.com/api/orders/123" target="_blank" rel="external">http://example.com/api/orders/123</a></td>
+</tr>
+<tr>
+<td>POST</td>
+<td>创建新资源</td>
+<td><a href="http://example.com/api/orders" target="_blank" rel="external">http://example.com/api/orders</a></td>
+</tr>
+<tr>
+<td>PUT</td>
+<td>更新资源</td>
+<td><a href="http://example.com/api/orders/123" target="_blank" rel="external">http://example.com/api/orders/123</a></td>
+</tr>
+<tr>
+<td>DELETE</td>
+<td>删除资源</td>
+<td><a href="http://example.com/api/orders/123" target="_blank" rel="external">http://example.com/api/orders/123</a></td>
+</tr>
+</tbody>
+</table>
+<p>1、确定baseURL ：<code>http://[hostname]/todo/api/v1.0/</code></p>
+<table>
+<thead>
+<tr>
+<th>HTTP方法</th>
+<th>URL</th>
+<th>动作</th>
+<th>输入</th>
+<th>输出</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GET</td>
+<td><a href="http://[baseURL]/" target="_blank" rel="external">http://[baseURL]/</a></td>
+<td>检索清单列表</td>
+<td>/</td>
+<td>_id；title</td>
+</tr>
+<tr>
+<td>GET</td>
+<td><a href="http://[baseURL]/todos/[_id" target="_blank" rel="external">http://[baseURL]/todos/[_id</a>]</td>
+<td>检索任务列表</td>
+<td>/_id</td>
+<td>title；completed；isdelete；</td>
+</tr>
+<tr>
+<td>POST</td>
+<td><a href="http://[baseURL]/add" target="_blank" rel="external">http://[baseURL]/add</a></td>
+<td>新增清单</td>
+<td>title;</td>
+<td></td>
+</tr>
+<tr>
+<td>POST</td>
+<td><a href="http://[baseURL]/todos/add" target="_blank" rel="external">http://[baseURL]/todos/add</a></td>
+<td>新增任务</td>
+<td>title;</td>
+<td></td>
+</tr>
+<tr>
+<td>POST</td>
+<td><a href="http://[baseURL]/update/[_id" target="_blank" rel="external">http://[baseURL]/update/[_id</a>]</td>
+<td>更新清单</td>
+<td>_id；title；</td>
+<td></td>
+</tr>
+<tr>
+<td>POST</td>
+<td><a href="http://[baseURL]/todos/update/[index" target="_blank" rel="external">http://[baseURL]/todos/update/[index</a>]</td>
+<td>更新任务</td>
+<td>id；item；index；completed；isdelete；</td>
+<td></td>
+</tr>
+<tr>
+<td>POST</td>
+<td><a href="http://[baseURL]/delete/[_id" target="_blank" rel="external">http://[baseURL]/delete/[_id</a>]</td>
+<td>删除清单</td>
+<td>_id;</td>
+</tr>
+</tbody>
+</table>
+<p>2、数据库规划</p>
+<table>
+<thead>
+<tr>
+<th>集合</th>
+<th>字段</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>todos</td>
+<td>title；completed；created_time；isdelete；</td>
+</tr>
+<tr>
+<td>lists</td>
+<td>_id；title；created_time；</td>
+</tr>
+</tbody>
+</table>
+<h4 id="后端开发环境配置"><a href="#后端开发环境配置" class="headerlink" title="后端开发环境配置"></a>后端开发环境配置</h4><p>1、配置Flask</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"># 查看本机安装的版本</div><div class="line">pyenv versions</div><div class="line"># 设置环境为anaconda</div><div class="line">pyenv local anaconda3-4.4.0</div><div class="line"># 查看已经安装的包</div><div class="line">conda list</div><div class="line"># 安装flask</div><div class="line">conda install flask</div></pre></td></tr></table></figure>
+<p>2、配置Pymongo</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"># 安装PyMongo</div><div class="line">conda install pymongo</div><div class="line"># 建立连接</div><div class="line">client = pymongo.MongoClient(host=&apos;localhost&apos;,port=27017)</div><div class="line"># 得到数据库</div><div class="line">db = client.mtodo</div><div class="line"># 得到数据集合</div><div class="line">lists = db.lists</div></pre></td></tr></table></figure>
+<p>3、跨域访问装饰器在Flask中的实现</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div></pre></td><td class="code"><pre><div class="line">from functools import wraps</div><div class="line">from flask import make_response</div><div class="line"></div><div class="line">def allow_cross_domain(fun):</div><div class="line">    @wraps(fun)</div><div class="line">    def wrapper_fun(*args, **kwargs):</div><div class="line">        rst = make_response(fun(*args, **kwargs))</div><div class="line">        rst.headers[&apos;Access-Control-Allow-Origin&apos;] = &apos;*&apos;</div><div class="line">        rst.headers[&apos;Access-Control-Allow-Methods&apos;] = &apos;PUT,GET,POST,DELETE&apos;</div><div class="line">        allow_headers = &quot;Referer,Accept,Origin,User-Agent&quot;</div><div class="line">        rst.headers[&apos;Access-Control-Allow-Headers&apos;] = allow_headers</div><div class="line">        return rst</div><div class="line">    return wrapper_fun</div><div class="line"></div><div class="line">@app.route(&apos;/&apos;)</div><div class="line">@allow_cross_domain</div><div class="line">def domains():</div><div class="line">    pass</div></pre></td></tr></table></figure>
+<p>备注：接口返回的数据是这样的格式[{ title: ‘电影清单’ }, { title: ‘购物清单’ }, {title: ‘阅读清单’ }]</p>
+<h4 id="Flak接收数据"><a href="#Flak接收数据" class="headerlink" title="Flak接收数据"></a>Flak接收数据</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"># 接收GET参数或POST数据，获得name字段的值</div><div class="line">request.values.get(&apos;name&apos;)</div></pre></td></tr></table></figure>
+<h3 id="前端使用axios调用接口"><a href="#前端使用axios调用接口" class="headerlink" title="前端使用axios调用接口"></a>前端使用axios调用接口</h3><p>1、配置axios</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"># 安装axios</div><div class="line">npm install axios</div><div class="line"># 在vue的main.js文件中加入代码</div><div class="line">import axios from &apos;axios&apos;</div><div class="line">Vue.prototype.$ajax = axios</div></pre></td></tr></table></figure>
+<p>2、在组件*.vue文件中使用vue(如果Console中有了请求的数据，则请求成功)</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">mounted() &#123;</div><div class="line">  this.$ajax(&#123;</div><div class="line">    method:&apos;GET&apos;,</div><div class="line">    url:&apos;http://127.0.0.1:5000/&apos;</div><div class="line">  &#125;).then(function(response)&#123;</div><div class="line">    console.log(response)</div><div class="line">  &#125;)</div><div class="line">&#125;,</div></pre></td></tr></table></figure>
+<p>备注：Vue钩子函数</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"># created</div><div class="line">实例已经创建完成之后被调用。在这一步，实例已完成以下的配置：数据观测(data observer)，属性和方法的运算， watch/event 事件回调。然而，挂载阶段还没开始，$el 属性目前不可见。</div><div class="line"># mounted</div><div class="line">el 被新创建的 vm.$el 替换，并挂载到实例上去之后调用该钩子。</div></pre></td></tr></table></figure>
+<p>3、请求数据成功后，赋值给vue的data中的字段</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">mounted() &#123;</div><div class="line">  this.$ajax.get(&apos;http://127.0.0.1:5000/&apos;).then(result =&gt; &#123;</div><div class="line">    this.lists = result.data</div><div class="line">  &#125;)</div></pre></td></tr></table></figure>
+<h4 id="应用截图"><a href="#应用截图" class="headerlink" title="应用截图"></a>应用截图</h4><p><img src="/2018/01/05/使用VUE和Flask前后端分离开发Todo单页应用/应用截图.png" alt="应用截图"></p>
+<blockquote>
+<p>源代码 <a href="https://github.com/Mihawkmah/VueTodo" target="_blank" rel="external">https://github.com/Mihawkmah/VueTodo</a></p>
+</blockquote>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;Vue环境配置&quot;&gt;&lt;a href=&quot;#Vue环境配置&quot; class=&quot;headerlink&quot; title=&quot;Vue环境配置&quot;&gt;&lt;/a&gt;Vue环境配置&lt;/h3&gt;&lt;p&gt;1、安装NodeJs的同时安装了npm包管理工具。&lt;/p&gt;
+&lt;figure class=&quot;highl
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>2018，如你所愿。</title>
