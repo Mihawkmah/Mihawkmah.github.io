@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://mihawkmah.github.io/"/>
-  <updated>2018-01-05T05:02:48.000Z</updated>
+  <updated>2018-01-05T05:04:06.000Z</updated>
   <id>https://mihawkmah.github.io/</id>
   
   <author>
@@ -20,10 +20,11 @@
     <link href="https://mihawkmah.github.io/2018/01/05/%E4%BD%BF%E7%94%A8VUE%E5%92%8CFlask%E5%89%8D%E5%90%8E%E7%AB%AF%E5%88%86%E7%A6%BB%E5%BC%80%E5%8F%91Todo%E5%8D%95%E9%A1%B5%E5%BA%94%E7%94%A8/"/>
     <id>https://mihawkmah.github.io/2018/01/05/使用VUE和Flask前后端分离开发Todo单页应用/</id>
     <published>2018-01-05T05:01:08.000Z</published>
-    <updated>2018-01-05T05:02:48.000Z</updated>
+    <updated>2018-01-05T05:04:06.000Z</updated>
     
     <content type="html"><![CDATA[<h3 id="Vue环境配置"><a href="#Vue环境配置" class="headerlink" title="Vue环境配置"></a>Vue环境配置</h3><p>1、安装NodeJs的同时安装了npm包管理工具。</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"># 查看版本</div><div class="line">$ npm -v</div><div class="line">#升级 npm</div><div class="line">$ sudo npm install npm -g</div></pre></td></tr></table></figure>
+<a id="more"></a>
 <p>2、命令行工具（CLI）</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"># 全局安装 webpack</div><div class="line">$ npm install webpack -g</div><div class="line"># 全局安装 vue-cli</div><div class="line">$ npm install --global vue-cli</div><div class="line"># 创建一个基于 webpack 模板的新项目</div><div class="line">$ vue init webpack my-project</div><div class="line"># 安装项目依赖</div><div class="line">$ cd my-project</div><div class="line">$ npm install</div><div class="line"># 运行项目，运行后就可以在浏览器打开链接http://localhost:8080/</div><div class="line">$ npm run dev</div></pre></td></tr></table></figure>
 <p>3、查看版本</p>
@@ -194,7 +195,7 @@
     <summary type="html">
     
       &lt;h3 id=&quot;Vue环境配置&quot;&gt;&lt;a href=&quot;#Vue环境配置&quot; class=&quot;headerlink&quot; title=&quot;Vue环境配置&quot;&gt;&lt;/a&gt;Vue环境配置&lt;/h3&gt;&lt;p&gt;1、安装NodeJs的同时安装了npm包管理工具。&lt;/p&gt;
-&lt;figure class=&quot;highl
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;3&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;4&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;# 查看版本&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;$ npm -v&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;#升级 npm&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;$ sudo npm install npm -g&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
     
     </summary>
     
