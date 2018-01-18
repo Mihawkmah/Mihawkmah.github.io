@@ -4,9 +4,9 @@
   <subtitle>积石成岩 流则不荒</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://weibo.com/mihawkmah/"/>
+  <link href="/"/>
   <updated>2018-01-16T03:37:35.000Z</updated>
-  <id>http://weibo.com/mihawkmah/</id>
+  <id>/</id>
   
   <author>
     <name>Mihawkmah</name>
@@ -17,8 +17,8 @@
   
   <entry>
     <title>大型网站技术架构解决方案</title>
-    <link href="http://weibo.com/mihawkmah/2018/01/16/%E5%A4%A7%E5%9E%8B%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF%E6%9E%B6%E6%9E%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/"/>
-    <id>http://weibo.com/mihawkmah/2018/01/16/大型网站技术架构解决方案/</id>
+    <link href="/2018/01/16/%E5%A4%A7%E5%9E%8B%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF%E6%9E%B6%E6%9E%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/"/>
+    <id>/2018/01/16/大型网站技术架构解决方案/</id>
     <published>2018-01-16T03:36:58.000Z</published>
     <updated>2018-01-16T03:37:35.000Z</updated>
     
@@ -61,8 +61,8 @@
   
   <entry>
     <title>6步骤利用模型工具分析商业机会</title>
-    <link href="http://weibo.com/mihawkmah/2018/01/15/6%E6%AD%A5%E9%AA%A4%E5%88%A9%E7%94%A8%E6%A8%A1%E5%9E%8B%E5%B7%A5%E5%85%B7%E5%88%86%E6%9E%90%E5%95%86%E4%B8%9A%E6%9C%BA%E4%BC%9A/"/>
-    <id>http://weibo.com/mihawkmah/2018/01/15/6步骤利用模型工具分析商业机会/</id>
+    <link href="/2018/01/15/6%E6%AD%A5%E9%AA%A4%E5%88%A9%E7%94%A8%E6%A8%A1%E5%9E%8B%E5%B7%A5%E5%85%B7%E5%88%86%E6%9E%90%E5%95%86%E4%B8%9A%E6%9C%BA%E4%BC%9A/"/>
+    <id>/2018/01/15/6步骤利用模型工具分析商业机会/</id>
     <published>2018-01-15T08:56:45.000Z</published>
     <updated>2018-01-15T08:57:27.000Z</updated>
     
@@ -163,8 +163,8 @@
   
   <entry>
     <title>2017中国产品经理大会笔记</title>
-    <link href="http://weibo.com/mihawkmah/2018/01/08/2017%E4%B8%AD%E5%9B%BD%E4%BA%A7%E5%93%81%E7%BB%8F%E7%90%86%E5%A4%A7%E4%BC%9A%E7%AC%94%E8%AE%B0/"/>
-    <id>http://weibo.com/mihawkmah/2018/01/08/2017中国产品经理大会笔记/</id>
+    <link href="/2018/01/08/2017%E4%B8%AD%E5%9B%BD%E4%BA%A7%E5%93%81%E7%BB%8F%E7%90%86%E5%A4%A7%E4%BC%9A%E7%AC%94%E8%AE%B0/"/>
+    <id>/2018/01/08/2017中国产品经理大会笔记/</id>
     <published>2018-01-08T03:09:04.000Z</published>
     <updated>2018-01-08T04:49:10.000Z</updated>
     
@@ -239,8 +239,8 @@
   
   <entry>
     <title>使用VUE和Flask前后端分离开发Todo单页应用</title>
-    <link href="http://weibo.com/mihawkmah/2018/01/05/%E4%BD%BF%E7%94%A8VUE%E5%92%8CFlask%E5%89%8D%E5%90%8E%E7%AB%AF%E5%88%86%E7%A6%BB%E5%BC%80%E5%8F%91Todo%E5%8D%95%E9%A1%B5%E5%BA%94%E7%94%A8/"/>
-    <id>http://weibo.com/mihawkmah/2018/01/05/使用VUE和Flask前后端分离开发Todo单页应用/</id>
+    <link href="/2018/01/05/%E4%BD%BF%E7%94%A8VUE%E5%92%8CFlask%E5%89%8D%E5%90%8E%E7%AB%AF%E5%88%86%E7%A6%BB%E5%BC%80%E5%8F%91Todo%E5%8D%95%E9%A1%B5%E5%BA%94%E7%94%A8/"/>
+    <id>/2018/01/05/使用VUE和Flask前后端分离开发Todo单页应用/</id>
     <published>2018-01-05T05:01:08.000Z</published>
     <updated>2018-01-05T05:04:06.000Z</updated>
     
@@ -255,7 +255,7 @@
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm install --save-dev style-loader css-loader file-loader</div></pre></td></tr></table></figure>
 <p>2、npm安装elementUi模块</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm i element-ui -S</div></pre></td></tr></table></figure>
-<h3 id="需求分析"><a href="#需求分析" class="headerlink" title="需求分析"></a>需求分析</h3><p><img src="/mihawkmah/2018/01/05/使用VUE和Flask前后端分离开发Todo单页应用/todo.png" alt="todo"></p>
+<h3 id="需求分析"><a href="#需求分析" class="headerlink" title="需求分析"></a>需求分析</h3><p><img src="/05/使用VUE和Flask前后端分离开发Todo单页应用/todo.png" alt="todo"></p>
 <h4 id="1、接口分析"><a href="#1、接口分析" class="headerlink" title="1、接口分析"></a>1、接口分析</h4><ul>
 <li>获取清单列表</li>
 <li>新建清单</li>
@@ -408,7 +408,7 @@
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"># created</div><div class="line">实例已经创建完成之后被调用。在这一步，实例已完成以下的配置：数据观测(data observer)，属性和方法的运算， watch/event 事件回调。然而，挂载阶段还没开始，$el 属性目前不可见。</div><div class="line"># mounted</div><div class="line">el 被新创建的 vm.$el 替换，并挂载到实例上去之后调用该钩子。</div></pre></td></tr></table></figure>
 <p>3、请求数据成功后，赋值给vue的data中的字段</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">mounted() &#123;</div><div class="line">  this.$ajax.get(&apos;http://127.0.0.1:5000/&apos;).then(result =&gt; &#123;</div><div class="line">    this.lists = result.data</div><div class="line">  &#125;)</div></pre></td></tr></table></figure>
-<h4 id="应用截图"><a href="#应用截图" class="headerlink" title="应用截图"></a>应用截图</h4><p><img src="/mihawkmah/2018/01/05/使用VUE和Flask前后端分离开发Todo单页应用/应用截图.png" alt="应用截图"></p>
+<h4 id="应用截图"><a href="#应用截图" class="headerlink" title="应用截图"></a>应用截图</h4><p><img src="/05/使用VUE和Flask前后端分离开发Todo单页应用/应用截图.png" alt="应用截图"></p>
 <blockquote>
 <p>源代码 <a href="https://github.com/Mihawkmah/VueTodo" target="_blank" rel="external">https://github.com/Mihawkmah/VueTodo</a></p>
 </blockquote>
@@ -426,8 +426,8 @@
   
   <entry>
     <title>2018，如你所愿。</title>
-    <link href="http://weibo.com/mihawkmah/2018/01/01/2018%EF%BC%8C%E5%A6%82%E4%BD%A0%E6%89%80%E6%84%BF%E3%80%82/"/>
-    <id>http://weibo.com/mihawkmah/2018/01/01/2018，如你所愿。/</id>
+    <link href="/2018/01/01/2018%EF%BC%8C%E5%A6%82%E4%BD%A0%E6%89%80%E6%84%BF%E3%80%82/"/>
+    <id>/2018/01/01/2018，如你所愿。/</id>
     <published>2018-01-01T14:39:22.000Z</published>
     <updated>2018-01-01T14:48:17.000Z</updated>
     
@@ -498,19 +498,19 @@
   
   <entry>
     <title>工具APP「 红包语音名片 」原型分享</title>
-    <link href="http://weibo.com/mihawkmah/2017/12/19/%E5%B7%A5%E5%85%B7APP%E7%BA%A2%E5%8C%85%E8%AF%AD%E9%9F%B3%E5%90%8D%E7%89%87%E5%8E%9F%E5%9E%8B%E5%88%86%E4%BA%AB/"/>
-    <id>http://weibo.com/mihawkmah/2017/12/19/工具APP红包语音名片原型分享/</id>
+    <link href="/2017/12/19/%E5%B7%A5%E5%85%B7APP%E7%BA%A2%E5%8C%85%E8%AF%AD%E9%9F%B3%E5%90%8D%E7%89%87%E5%8E%9F%E5%9E%8B%E5%88%86%E4%BA%AB/"/>
+    <id>/2017/12/19/工具APP红包语音名片原型分享/</id>
     <published>2017-12-19T09:52:25.000Z</published>
     <updated>2017-12-19T09:58:02.000Z</updated>
     
-    <content type="html"><![CDATA[<p><img src="/mihawkmah/2017/12/19/工具APP红包语音名片原型分享/1.jpg" alt="1"></p>
+    <content type="html"><![CDATA[<p><img src="/19/工具APP红包语音名片原型分享/1.jpg" alt="1"></p>
 <a id="more"></a>
-<p><img src="/mihawkmah/2017/12/19/工具APP红包语音名片原型分享/2.jpg" alt="2"></p>
+<p><img src="/19/工具APP红包语音名片原型分享/2.jpg" alt="2"></p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;&lt;img src=&quot;/mihawkmah/2017/12/19/工具APP红包语音名片原型分享/1.jpg&quot; alt=&quot;1&quot;&gt;&lt;/p&gt;
+      &lt;p&gt;&lt;img src=&quot;/19/工具APP红包语音名片原型分享/1.jpg&quot; alt=&quot;1&quot;&gt;&lt;/p&gt;
     
     </summary>
     
@@ -519,12 +519,12 @@
   
   <entry>
     <title>社会化聆听系统需求分析</title>
-    <link href="http://weibo.com/mihawkmah/2017/12/19/%E7%A4%BE%E4%BC%9A%E5%8C%96%E8%81%86%E5%90%AC%E7%B3%BB%E7%BB%9F%E9%9C%80%E6%B1%82%E5%88%86%E6%9E%90/"/>
-    <id>http://weibo.com/mihawkmah/2017/12/19/社会化聆听系统需求分析/</id>
+    <link href="/2017/12/19/%E7%A4%BE%E4%BC%9A%E5%8C%96%E8%81%86%E5%90%AC%E7%B3%BB%E7%BB%9F%E9%9C%80%E6%B1%82%E5%88%86%E6%9E%90/"/>
+    <id>/2017/12/19/社会化聆听系统需求分析/</id>
     <published>2017-12-19T09:24:16.000Z</published>
     <updated>2017-12-19T09:41:30.000Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="1-项目分析"><a href="#1-项目分析" class="headerlink" title="1 项目分析"></a>1 项目分析</h3><h4 id="1-1-需求调研"><a href="#1-1-需求调研" class="headerlink" title="1.1 需求调研"></a>1.1 需求调研</h4><p><img src="/mihawkmah/2017/12/19/社会化聆听系统需求分析/目标用户.png" alt="目标用户"></p>
+    <content type="html"><![CDATA[<h3 id="1-项目分析"><a href="#1-项目分析" class="headerlink" title="1 项目分析"></a>1 项目分析</h3><h4 id="1-1-需求调研"><a href="#1-1-需求调研" class="headerlink" title="1.1 需求调研"></a>1.1 需求调研</h4><p><img src="/19/社会化聆听系统需求分析/目标用户.png" alt="目标用户"></p>
 <table>
 <thead>
 <tr>
@@ -553,7 +553,7 @@
 </table>
 <a id="more"></a>
 <p>通过采集范围和分析频次两个维度对现阶段市场的社会化聆听需求进行拆解，可以得出如下分布：</p>
-<p><img src="/mihawkmah/2017/12/19/社会化聆听系统需求分析/需求分布.png" alt="需求分布"></p>
+<p><img src="/19/社会化聆听系统需求分析/需求分布.png" alt="需求分布"></p>
 <h4 id="1-2-头部竞品解决方案"><a href="#1-2-头部竞品解决方案" class="headerlink" title="1.2 头部竞品解决方案"></a>1.2 头部竞品解决方案</h4><table>
 <thead>
 <tr>
@@ -589,19 +589,19 @@
 </tbody>
 </table>
 <p>通过上述对解决方案的梳理，现阶段市场上除了微博传播路径分析外，仅有腾讯企鹅风讯和新浪微舆情（舆情定向监测（站源或地区）、新闻正文页评论分析）2家公司提供定向采集的社会化聆听服务。</p>
-<h4 id="1-3-社会化聆听系统分析"><a href="#1-3-社会化聆听系统分析" class="headerlink" title="1.3 社会化聆听系统分析"></a>1.3 社会化聆听系统分析</h4><h5 id="1-3-1-系统底层逻辑"><a href="#1-3-1-系统底层逻辑" class="headerlink" title="1.3.1 系统底层逻辑"></a>1.3.1 系统底层逻辑</h5><p><img src="/mihawkmah/2017/12/19/社会化聆听系统需求分析/5W1H.png" alt="5W1H"></p>
+<h4 id="1-3-社会化聆听系统分析"><a href="#1-3-社会化聆听系统分析" class="headerlink" title="1.3 社会化聆听系统分析"></a>1.3 社会化聆听系统分析</h4><h5 id="1-3-1-系统底层逻辑"><a href="#1-3-1-系统底层逻辑" class="headerlink" title="1.3.1 系统底层逻辑"></a>1.3.1 系统底层逻辑</h5><p><img src="/19/社会化聆听系统需求分析/5W1H.png" alt="5W1H"></p>
 <p>一篇内容里面包含的要素，可以通过5W1H分析法进行概括，这6个要素被视为一篇新闻应该让读者知道的讯息，同时这6个要素也可以视为现实世界在语言文字中的映射。</p>
 <p>结构化数据指的是能够通过二维结构存储在表格中的数据，非结构化数据即除结构化数据之外的数据，如在互联网中产生的文本、图片、音频、视频等数据。根据IDC在2011年的调查显示，非结构化数据将占所有互联网产生数据的90%。</p>
 <p>结构化数据的分析往往解答的是定量的问题，例如对数据进行透视、聚类、相关性等处理，但是对于为什么（潜在动机/真实需求）这种定性的问题往往不能有效的解答，而在经营决策过程中，对于人群行为动机和真实需求的洞察是非常重要的参考依据。当我们对大量非结构化数据进行文本分析时，即可实现对这种定性问题的解答。这里将此需求统一称为社会化聆听需求。</p>
 <h5 id="1-3-2-系统采集元素"><a href="#1-3-2-系统采集元素" class="headerlink" title="1.3.2 系统采集元素"></a>1.3.2 系统采集元素</h5><p>区别于传统的报纸、广播、电视等，这里将博客、论坛、社区、百科、问答、点评、视频、相册、音乐等各种互联网形态都广义的归类于社会化媒体。</p>
-<p><img src="/mihawkmah/2017/12/19/社会化聆听系统需求分析/社会化媒体元素.png" alt="社会化媒体元素"></p>
+<p><img src="/19/社会化聆听系统需求分析/社会化媒体元素.png" alt="社会化媒体元素"></p>
 <p>在社会化媒体中，产生的主要元素有文本、时间地点人物、操作行为、关系，操作行为包含阅读、转发、评论、收藏、点赞/喜欢、打赏、签到。</p>
 <p>社会化聆听即是对上述元素的分析挖掘，展现元素及元素间的比较、构成、分布、关联。</p>
-<h5 id="1-3-3-系统实现框架"><a href="#1-3-3-系统实现框架" class="headerlink" title="1.3.3 系统实现框架"></a>1.3.3 系统实现框架</h5><p><img src="/mihawkmah/2017/12/19/社会化聆听系统需求分析/社会化聆听系统.png" alt="社会化聆听系统"></p>
+<h5 id="1-3-3-系统实现框架"><a href="#1-3-3-系统实现框架" class="headerlink" title="1.3.3 系统实现框架"></a>1.3.3 系统实现框架</h5><p><img src="/19/社会化聆听系统需求分析/社会化聆听系统.png" alt="社会化聆听系统"></p>
 <p>通过上述分析，可以将社会化聆听系统定义为：通过采集社会化媒体中的大量非结构化数据，对其进行文本分析及统计后，根据业务需求得出定性和定量的分析结果并可视化呈现出来。</p>
 <h5 id="1-3-4-系统分析结论"><a href="#1-3-4-系统分析结论" class="headerlink" title="1.3.4 系统分析结论"></a>1.3.4 系统分析结论</h5><p>现阶段舆情市场，主要的业务集中在大范围采集日常化监测，而对一些企业经营过程中的特定常用场景支撑不足。对于非结构数据的定向采集实时分析往往能够提供更好更准确的决策依据，当然这方面需求可以采用爬虫采集人工分析的方案来解决，但是有一定的技术门槛，如果将这一需求做成一套易用性良好的工具可以有一定的市场。</p>
 <p>方案可以初步设定为：</p>
-<p><img src="/mihawkmah/2017/12/19/社会化聆听系统需求分析/大功能模块.png" alt="大功能模块"></p>
+<p><img src="/19/社会化聆听系统需求分析/大功能模块.png" alt="大功能模块"></p>
 <h3 id="2-市场分析"><a href="#2-市场分析" class="headerlink" title="2 市场分析"></a>2 市场分析</h3><h4 id="2-1-市场及竞品分析"><a href="#2-1-市场及竞品分析" class="headerlink" title="2.1 市场及竞品分析"></a>2.1 市场及竞品分析</h4><table>
 <thead>
 <tr>
@@ -657,16 +657,16 @@
 </tr>
 </tbody>
 </table>
-<h4 id="2-2-市场定位"><a href="#2-2-市场定位" class="headerlink" title="2.2 市场定位"></a>2.2 市场定位</h4><p><img src="/mihawkmah/2017/12/19/社会化聆听系统需求分析/市场定位.png" alt="市场定位"></p>
+<h4 id="2-2-市场定位"><a href="#2-2-市场定位" class="headerlink" title="2.2 市场定位"></a>2.2 市场定位</h4><p><img src="/19/社会化聆听系统需求分析/市场定位.png" alt="市场定位"></p>
 <p>如采用阿里的API接口能力，根据市场竞品定价来看阿里的使用门槛较高，且由于阿里是根据关键词采集的数量来进行收费，一个大众化的关键词会有较高的成本，个人用户普遍无法承受这样的成本，所以结合资金实力和付费意愿来分析，大型企业、政府机构、中小型企业，以及服务于大型企业的咨询机构、公关传媒、广告营销会是潜在客户，重点做大客户，即销售线下签单维护客户流程为主。</p>
 <h4 id="2-3-产品定位"><a href="#2-3-产品定位" class="headerlink" title="2.3 产品定位"></a>2.3 产品定位</h4><p>市场上最实时、最准确、最业务导向的全网+定向采集社会化聆听服务</p>
-<h3 id="3-产品概念设计"><a href="#3-产品概念设计" class="headerlink" title="3 产品概念设计"></a>3 产品概念设计</h3><h4 id="3-1-概念设计"><a href="#3-1-概念设计" class="headerlink" title="3.1 概念设计"></a>3.1 概念设计</h4><p><img src="/mihawkmah/2017/12/19/社会化聆听系统需求分析/概念设计.png" alt="概念设计"></p>
-<h4 id="3-2-功能框架"><a href="#3-2-功能框架" class="headerlink" title="3.2 功能框架"></a>3.2 功能框架</h4><p><img src="/mihawkmah/2017/12/19/社会化聆听系统需求分析/功能框架.png" alt="功能框架"></p>
-<h4 id="3-3-主流程规划"><a href="#3-3-主流程规划" class="headerlink" title="3.3 主流程规划"></a>3.3 主流程规划</h4><p><img src="/mihawkmah/2017/12/19/社会化聆听系统需求分析/主流程规划.png" alt="主流程规划"></p>
-<h3 id="4-需求分析"><a href="#4-需求分析" class="headerlink" title="4 需求分析"></a>4 需求分析</h3><h4 id="4-1-主要场景梳理"><a href="#4-1-主要场景梳理" class="headerlink" title="4.1 主要场景梳理"></a>4.1 主要场景梳理</h4><p><img src="/mihawkmah/2017/12/19/社会化聆听系统需求分析/应用业务场景.png" alt="应用业务场景"></p>
-<h4 id="4-2-主要场景需求分析"><a href="#4-2-主要场景需求分析" class="headerlink" title="4.2 主要场景需求分析"></a>4.2 主要场景需求分析</h4><p><img src="/mihawkmah/2017/12/19/社会化聆听系统需求分析/主要场景需求分析.png" alt="主要场景需求分析"></p>
+<h3 id="3-产品概念设计"><a href="#3-产品概念设计" class="headerlink" title="3 产品概念设计"></a>3 产品概念设计</h3><h4 id="3-1-概念设计"><a href="#3-1-概念设计" class="headerlink" title="3.1 概念设计"></a>3.1 概念设计</h4><p><img src="/19/社会化聆听系统需求分析/概念设计.png" alt="概念设计"></p>
+<h4 id="3-2-功能框架"><a href="#3-2-功能框架" class="headerlink" title="3.2 功能框架"></a>3.2 功能框架</h4><p><img src="/19/社会化聆听系统需求分析/功能框架.png" alt="功能框架"></p>
+<h4 id="3-3-主流程规划"><a href="#3-3-主流程规划" class="headerlink" title="3.3 主流程规划"></a>3.3 主流程规划</h4><p><img src="/19/社会化聆听系统需求分析/主流程规划.png" alt="主流程规划"></p>
+<h3 id="4-需求分析"><a href="#4-需求分析" class="headerlink" title="4 需求分析"></a>4 需求分析</h3><h4 id="4-1-主要场景梳理"><a href="#4-1-主要场景梳理" class="headerlink" title="4.1 主要场景梳理"></a>4.1 主要场景梳理</h4><p><img src="/19/社会化聆听系统需求分析/应用业务场景.png" alt="应用业务场景"></p>
+<h4 id="4-2-主要场景需求分析"><a href="#4-2-主要场景需求分析" class="headerlink" title="4.2 主要场景需求分析"></a>4.2 主要场景需求分析</h4><p><img src="/19/社会化聆听系统需求分析/主要场景需求分析.png" alt="主要场景需求分析"></p>
 <p>从客户广泛程度和需求强弱的角度进行分析，舆情监测、竞品分析、用户画像、口碑分析、消费倾向具有更大的市场价值，将其命名为我们的重点功能。</p>
-<h4 id="4-2-支撑能力分析"><a href="#4-2-支撑能力分析" class="headerlink" title="4.2 支撑能力分析"></a>4.2 支撑能力分析</h4><p><img src="/mihawkmah/2017/12/19/社会化聆听系统需求分析/支撑分析能力.png" alt="支撑分析能力"></p>
+<h4 id="4-2-支撑能力分析"><a href="#4-2-支撑能力分析" class="headerlink" title="4.2 支撑能力分析"></a>4.2 支撑能力分析</h4><p><img src="/19/社会化聆听系统需求分析/支撑分析能力.png" alt="支撑分析能力"></p>
 <p>重点功能中的口碑分析和消费倾向，以及用户画像（只有地区，性别只有在微博传播中才有），目前阿里的接口不能很好的支撑。</p>
 <h4 id="4-3-需求分析结论"><a href="#4-3-需求分析结论" class="headerlink" title="4.3 需求分析结论"></a>4.3 需求分析结论</h4><p>从客户广泛程度和需求强弱以及实现难度这几个方面来讲，舆情监测、竞品分析可以作为重点需求来进行开发，后期再分行业进行口碑和消费倾向的功能开发，再往后可以引入话题事件观点实时分析以及微博传播等功能。</p>
 <p>同时结合业务及现有资源情况，可以以支持销售线下签单的流程为主，签单后运营使用平台来支持客户需求。</p>
@@ -674,7 +674,7 @@
     
     <summary type="html">
     
-      &lt;h3 id=&quot;1-项目分析&quot;&gt;&lt;a href=&quot;#1-项目分析&quot; class=&quot;headerlink&quot; title=&quot;1 项目分析&quot;&gt;&lt;/a&gt;1 项目分析&lt;/h3&gt;&lt;h4 id=&quot;1-1-需求调研&quot;&gt;&lt;a href=&quot;#1-1-需求调研&quot; class=&quot;headerlink&quot; title=&quot;1.1 需求调研&quot;&gt;&lt;/a&gt;1.1 需求调研&lt;/h4&gt;&lt;p&gt;&lt;img src=&quot;/mihawkmah/2017/12/19/社会化聆听系统需求分析/目标用户.png&quot; alt=&quot;目标用户&quot;&gt;&lt;/p&gt;
+      &lt;h3 id=&quot;1-项目分析&quot;&gt;&lt;a href=&quot;#1-项目分析&quot; class=&quot;headerlink&quot; title=&quot;1 项目分析&quot;&gt;&lt;/a&gt;1 项目分析&lt;/h3&gt;&lt;h4 id=&quot;1-1-需求调研&quot;&gt;&lt;a href=&quot;#1-1-需求调研&quot; class=&quot;headerlink&quot; title=&quot;1.1 需求调研&quot;&gt;&lt;/a&gt;1.1 需求调研&lt;/h4&gt;&lt;p&gt;&lt;img src=&quot;/19/社会化聆听系统需求分析/目标用户.png&quot; alt=&quot;目标用户&quot;&gt;&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -709,8 +709,8 @@
   
   <entry>
     <title>需求分析框架 | 从用户需求到产品需求的转化</title>
-    <link href="http://weibo.com/mihawkmah/2017/12/14/%E9%9C%80%E6%B1%82%E5%88%86%E6%9E%90%E6%A1%86%E6%9E%B6-%E4%BB%8E%E7%94%A8%E6%88%B7%E9%9C%80%E6%B1%82%E5%88%B0%E4%BA%A7%E5%93%81%E9%9C%80%E6%B1%82%E7%9A%84%E8%BD%AC%E5%8C%96/"/>
-    <id>http://weibo.com/mihawkmah/2017/12/14/需求分析框架-从用户需求到产品需求的转化/</id>
+    <link href="/2017/12/14/%E9%9C%80%E6%B1%82%E5%88%86%E6%9E%90%E6%A1%86%E6%9E%B6-%E4%BB%8E%E7%94%A8%E6%88%B7%E9%9C%80%E6%B1%82%E5%88%B0%E4%BA%A7%E5%93%81%E9%9C%80%E6%B1%82%E7%9A%84%E8%BD%AC%E5%8C%96/"/>
+    <id>/2017/12/14/需求分析框架-从用户需求到产品需求的转化/</id>
     <published>2017-12-14T05:30:38.000Z</published>
     <updated>2017-12-20T04:30:43.000Z</updated>
     
@@ -730,7 +730,7 @@
 <p><strong>信息展示：</strong>如果是从0到1地打造一款产品，或者说产品设计是先于运营的，而且结合了市场、用户、功能、表现等等全方位的考量，所以至于展示什么样的信息，也是非常考验产品洞察力的。</p>
 <h4 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h4><p><strong>商业模式：</strong>商业化变现方式</p>
 <p><strong>运营模式：</strong>冷启动、成长期（获取用户、积攒口碑、建设品牌、快速抢占市场）、成熟期（保持住用户的活跃、粘性，同时要保持危机感盯紧竞争对手的动作必要时予以打击）、</p>
-<p><img src="/mihawkmah/2017/12/14/需求分析框架-从用户需求到产品需求的转化/需求分析框架.jpg" alt="需求分析框架"></p>
+<p><img src="/14/需求分析框架-从用户需求到产品需求的转化/需求分析框架.jpg" alt="需求分析框架"></p>
 ]]></content>
     
     <summary type="html">
@@ -746,8 +746,8 @@
   
   <entry>
     <title>2017/10 泛读</title>
-    <link href="http://weibo.com/mihawkmah/2017/10/18/2017-10-%E6%B3%9B%E8%AF%BB/"/>
-    <id>http://weibo.com/mihawkmah/2017/10/18/2017-10-泛读/</id>
+    <link href="/2017/10/18/2017-10-%E6%B3%9B%E8%AF%BB/"/>
+    <id>/2017/10/18/2017-10-泛读/</id>
     <published>2017-10-18T04:08:53.000Z</published>
     <updated>2017-10-18T04:14:25.000Z</updated>
     
@@ -858,8 +858,8 @@
   
   <entry>
     <title>店铺选址系统背后的业务逻辑梳理</title>
-    <link href="http://weibo.com/mihawkmah/2017/10/11/%E5%BA%97%E9%93%BA%E9%80%89%E5%9D%80%E7%B3%BB%E7%BB%9F%E8%83%8C%E5%90%8E%E7%9A%84%E4%B8%9A%E5%8A%A1%E9%80%BB%E8%BE%91%E6%A2%B3%E7%90%86/"/>
-    <id>http://weibo.com/mihawkmah/2017/10/11/店铺选址系统背后的业务逻辑梳理/</id>
+    <link href="/2017/10/11/%E5%BA%97%E9%93%BA%E9%80%89%E5%9D%80%E7%B3%BB%E7%BB%9F%E8%83%8C%E5%90%8E%E7%9A%84%E4%B8%9A%E5%8A%A1%E9%80%BB%E8%BE%91%E6%A2%B3%E7%90%86/"/>
+    <id>/2017/10/11/店铺选址系统背后的业务逻辑梳理/</id>
     <published>2017-10-11T06:47:17.000Z</published>
     <updated>2017-10-11T06:49:15.000Z</updated>
     
@@ -999,8 +999,8 @@
   
   <entry>
     <title>Scrapy爬虫入门[四] | Pandas数据分析Top100电影</title>
-    <link href="http://weibo.com/mihawkmah/2017/09/30/Scrapy%E7%88%AC%E8%99%AB%E5%85%A5%E9%97%A8-%E5%9B%9B-Pandas%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90Top100%E7%94%B5%E5%BD%B1/"/>
-    <id>http://weibo.com/mihawkmah/2017/09/30/Scrapy爬虫入门-四-Pandas数据分析Top100电影/</id>
+    <link href="/2017/09/30/Scrapy%E7%88%AC%E8%99%AB%E5%85%A5%E9%97%A8-%E5%9B%9B-Pandas%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90Top100%E7%94%B5%E5%BD%B1/"/>
+    <id>/2017/09/30/Scrapy爬虫入门-四-Pandas数据分析Top100电影/</id>
     <published>2017-09-30T03:37:05.000Z</published>
     <updated>2017-09-30T03:52:30.000Z</updated>
     
@@ -1014,11 +1014,11 @@
 <h4 id="Pandas统计方法"><a href="#Pandas统计方法" class="headerlink" title="Pandas统计方法"></a>Pandas统计方法</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"># 按照year字段分组，并计算每组的数量</div><div class="line">movietop100.groupby(&apos;year&apos;).agg(&apos;count&apos;)</div><div class="line"></div><div class="line"># 数据透视表，每一年对应评分的电影名称的透视表格</div><div class="line">movietop100.pivot_table(index=[&quot;year&quot;],columns=[&quot;point&quot;],values=[&quot;name&quot;],aggfunc=&apos;sum&apos;)</div></pre></td></tr></table></figure>
 <h4 id="Plotly数据可视化"><a href="#Plotly数据可视化" class="headerlink" title="Plotly数据可视化"></a>Plotly数据可视化</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div></pre></td><td class="code"><pre><div class="line"># 安装plotly</div><div class="line">conda install plotly</div><div class="line"></div><div class="line"># 导入</div><div class="line">from plotly import offline</div><div class="line">import plotly.graph_objs as go</div><div class="line"></div><div class="line"># 直方图 Bar</div><div class="line">offline.init_notebook_mode()</div><div class="line">data = [go.Bar(</div><div class="line">    x = yeardata.index,</div><div class="line">    y = yeardata._id,</div><div class="line">)]</div><div class="line">offline.iplot(data)</div><div class="line"></div><div class="line"># 电影类型分布饼状图</div><div class="line">data = [go.Pie(</div><div class="line">    labels=datatypes.index,</div><div class="line">    values=datatypes.year</div><div class="line">)]</div><div class="line">offline.iplot(data)</div><div class="line"></div><div class="line">#散点图 Scatter</div><div class="line">offline.init_notebook_mode()</div><div class="line">data = [go.Scatter(</div><div class="line">    x = mo.year,</div><div class="line">    y = mo.pointnum,</div><div class="line">    mode = &quot;markers&quot;,</div><div class="line">    marker = dict(size = mo.point)</div><div class="line">)]</div><div class="line">offline.iplot(data)</div></pre></td></tr></table></figure>
 <h3 id="分析结果"><a href="#分析结果" class="headerlink" title="分析结果"></a>分析结果</h3><p>1、Top100电影的年份分布 - 柱状图</p>
-<p><img src="/mihawkmah/2017/09/30/Scrapy爬虫入门-四-Pandas数据分析Top100电影/1.jpg" alt="1"></p>
+<p><img src="/30/Scrapy爬虫入门-四-Pandas数据分析Top100电影/1.jpg" alt="1"></p>
 <p>2、Top100电影的类型分布 - 饼图</p>
-<p><img src="/mihawkmah/2017/09/30/Scrapy爬虫入门-四-Pandas数据分析Top100电影/2.jpg" alt="2"></p>
+<p><img src="/30/Scrapy爬虫入门-四-Pandas数据分析Top100电影/2.jpg" alt="2"></p>
 <p>3、Top100电影的评分分布 - 散点图（年份、评分）</p>
-<p><img src="/mihawkmah/2017/09/30/Scrapy爬虫入门-四-Pandas数据分析Top100电影/3.jpg" alt="3"></p>
+<p><img src="/30/Scrapy爬虫入门-四-Pandas数据分析Top100电影/3.jpg" alt="3"></p>
 <blockquote>
 <p>项目地址 <a href="https://github.com/Mihawkmah/Anaconda.Analysis" target="_blank" rel="external">https://github.com/Mihawkmah/Anaconda.Analysis</a></p>
 </blockquote>
@@ -1035,8 +1035,8 @@
   
   <entry>
     <title>Scrapy爬虫入门[三] | 实战爬取时光网Top100电影</title>
-    <link href="http://weibo.com/mihawkmah/2017/09/21/Scrapy%E7%88%AC%E8%99%AB%E5%85%A5%E9%97%A8-%E4%B8%89-%E5%AE%9E%E6%88%98%E7%88%AC%E5%8F%96%E6%97%B6%E5%85%89%E7%BD%91Top100%E7%94%B5%E5%BD%B1/"/>
-    <id>http://weibo.com/mihawkmah/2017/09/21/Scrapy爬虫入门-三-实战爬取时光网Top100电影/</id>
+    <link href="/2017/09/21/Scrapy%E7%88%AC%E8%99%AB%E5%85%A5%E9%97%A8-%E4%B8%89-%E5%AE%9E%E6%88%98%E7%88%AC%E5%8F%96%E6%97%B6%E5%85%89%E7%BD%91Top100%E7%94%B5%E5%BD%B1/"/>
+    <id>/2017/09/21/Scrapy爬虫入门-三-实战爬取时光网Top100电影/</id>
     <published>2017-09-21T08:04:21.000Z</published>
     <updated>2017-09-30T03:51:32.000Z</updated>
     
@@ -1088,8 +1088,8 @@
   
   <entry>
     <title>利用海盗模型建立数据分析维度</title>
-    <link href="http://weibo.com/mihawkmah/2017/09/18/%E5%88%A9%E7%94%A8%E6%B5%B7%E7%9B%97%E6%A8%A1%E5%9E%8B%E5%BB%BA%E7%AB%8B%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E7%BB%B4%E5%BA%A6/"/>
-    <id>http://weibo.com/mihawkmah/2017/09/18/利用海盗模型建立数据分析维度/</id>
+    <link href="/2017/09/18/%E5%88%A9%E7%94%A8%E6%B5%B7%E7%9B%97%E6%A8%A1%E5%9E%8B%E5%BB%BA%E7%AB%8B%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E7%BB%B4%E5%BA%A6/"/>
+    <id>/2017/09/18/利用海盗模型建立数据分析维度/</id>
     <published>2017-09-18T06:27:12.000Z</published>
     <updated>2017-09-18T06:36:43.000Z</updated>
     
@@ -1108,7 +1108,7 @@
 <p>留存（Retention）就是你长期定位来源你这个产品，而不是只是注册就走掉了，那这个其实是越来越被现在业内的人士开始关注和重视的。因为低价流量的时代基本上终结了，再加上收入正常的产品过程中，购买率的转化等等或者是往销售那边导流转化的效率等等。</p>
 <p>推荐（Referal）让用户向他的好朋友或者同事等认识的人去介绍</p>
 </blockquote>
-<p><img src="/mihawkmah/2017/09/18/利用海盗模型建立数据分析维度/数据分析框架.jpg" alt="数据分析框架"></p>
+<p><img src="/18/利用海盗模型建立数据分析维度/数据分析框架.jpg" alt="数据分析框架"></p>
 ]]></content>
     
     <summary type="html">
@@ -1128,8 +1128,8 @@
   
   <entry>
     <title>Scrapy爬虫入门[二] | 数据处理与存储</title>
-    <link href="http://weibo.com/mihawkmah/2017/09/12/Scrapy%E7%88%AC%E8%99%AB%E5%85%A5%E9%97%A8-%E4%BA%8C-%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86%E4%B8%8E%E5%AD%98%E5%82%A8/"/>
-    <id>http://weibo.com/mihawkmah/2017/09/12/Scrapy爬虫入门-二-数据处理与存储/</id>
+    <link href="/2017/09/12/Scrapy%E7%88%AC%E8%99%AB%E5%85%A5%E9%97%A8-%E4%BA%8C-%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86%E4%B8%8E%E5%AD%98%E5%82%A8/"/>
+    <id>/2017/09/12/Scrapy爬虫入门-二-数据处理与存储/</id>
     <published>2017-09-12T07:29:56.000Z</published>
     <updated>2017-09-21T07:18:25.000Z</updated>
     
@@ -1191,8 +1191,8 @@
   
   <entry>
     <title>产品需要知道的认知与设计准则</title>
-    <link href="http://weibo.com/mihawkmah/2017/09/11/%E4%BA%A7%E5%93%81%E9%9C%80%E8%A6%81%E7%9F%A5%E9%81%93%E7%9A%84%E8%AE%A4%E7%9F%A5%E4%B8%8E%E8%AE%BE%E8%AE%A1%E5%87%86%E5%88%99/"/>
-    <id>http://weibo.com/mihawkmah/2017/09/11/产品需要知道的认知与设计准则/</id>
+    <link href="/2017/09/11/%E4%BA%A7%E5%93%81%E9%9C%80%E8%A6%81%E7%9F%A5%E9%81%93%E7%9A%84%E8%AE%A4%E7%9F%A5%E4%B8%8E%E8%AE%BE%E8%AE%A1%E5%87%86%E5%88%99/"/>
+    <id>/2017/09/11/产品需要知道的认知与设计准则/</id>
     <published>2017-09-11T02:24:09.000Z</published>
     <updated>2017-09-12T02:14:00.000Z</updated>
     
@@ -1318,8 +1318,8 @@
   
   <entry>
     <title>Scrapy爬虫入门[一] | 环境配置及基本使用</title>
-    <link href="http://weibo.com/mihawkmah/2017/09/07/Scrapy%E7%88%AC%E8%99%AB%E5%85%A5%E9%97%A8%5B%E4%B8%80%5D-%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%E5%8F%8A%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/"/>
-    <id>http://weibo.com/mihawkmah/2017/09/07/Scrapy爬虫入门[一]-环境配置及基本使用/</id>
+    <link href="/2017/09/07/Scrapy%E7%88%AC%E8%99%AB%E5%85%A5%E9%97%A8%5B%E4%B8%80%5D-%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%E5%8F%8A%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/"/>
+    <id>/2017/09/07/Scrapy爬虫入门[一]-环境配置及基本使用/</id>
     <published>2017-09-07T03:11:24.000Z</published>
     <updated>2017-09-20T08:16:49.000Z</updated>
     
@@ -1376,8 +1376,8 @@
   
   <entry>
     <title>如何快速准确沟通动效需求 | 产品必备技能</title>
-    <link href="http://weibo.com/mihawkmah/2017/09/01/%E5%A6%82%E4%BD%95%E5%BF%AB%E9%80%9F%E5%87%86%E7%A1%AE%E6%B2%9F%E9%80%9A%E5%8A%A8%E6%95%88%E9%9C%80%E6%B1%82-%E4%BA%A7%E5%93%81%E5%BF%85%E5%A4%87%E6%8A%80%E8%83%BD/"/>
-    <id>http://weibo.com/mihawkmah/2017/09/01/如何快速准确沟通动效需求-产品必备技能/</id>
+    <link href="/2017/09/01/%E5%A6%82%E4%BD%95%E5%BF%AB%E9%80%9F%E5%87%86%E7%A1%AE%E6%B2%9F%E9%80%9A%E5%8A%A8%E6%95%88%E9%9C%80%E6%B1%82-%E4%BA%A7%E5%93%81%E5%BF%85%E5%A4%87%E6%8A%80%E8%83%BD/"/>
+    <id>/2017/09/01/如何快速准确沟通动效需求-产品必备技能/</id>
     <published>2017-09-01T08:27:00.000Z</published>
     <updated>2017-09-01T08:32:18.000Z</updated>
     
@@ -1394,7 +1394,7 @@
 <h4 id="速度曲线-缓动函数"><a href="#速度曲线-缓动函数" class="headerlink" title="速度曲线 - 缓动函数"></a>速度曲线 - 缓动函数</h4><p>利用CSS3的@keyframes规则和动画属性可以创建动画，取代Flash、JavaScript。现实中物体运动过程总是时而加速、时而减速，我们的大脑习惯了这种自然的运动方式，利用速度曲线函数可以实现这种效果，animation-timing-function属性可以设置运动曲线，默认是”ease”</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">Linear：匀速运动</div><div class="line"></div><div class="line">Ease：慢速开始，然后变快，然后慢速结束</div><div class="line"></div><div class="line">Ease-out：先快后慢</div><div class="line"></div><div class="line">Ease-in：先慢后快</div><div class="line"></div><div class="line">ease-in-out：以慢速开始和结束</div></pre></td></tr></table></figure>
 <p>还可以用cubic-bezier来自定义速度曲线，规定是cubic-bezier(X1, Y1, X2, Y2)，其中P1点坐标为(X1,Y1)，P2点坐标为(X2,Y2)。例如上述所说的linear函数可以写为c<code>ubic-bezier(0, 0, 1, 1)</code></p>
-<p><img src="/mihawkmah/2017/09/01/如何快速准确沟通动效需求-产品必备技能/741039-4016cb02499bb127.jpg" alt="741039-4016cb02499bb127"></p>
+<p><img src="/01/如何快速准确沟通动效需求-产品必备技能/741039-4016cb02499bb127.jpg" alt="741039-4016cb02499bb127"></p>
 ]]></content>
     
     <summary type="html">
@@ -1416,8 +1416,8 @@
   
   <entry>
     <title>项目管理框架 | 短平快推动项目</title>
-    <link href="http://weibo.com/mihawkmah/2017/08/24/%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86%E6%A1%86%E6%9E%B6-%E7%9F%AD%E5%B9%B3%E5%BF%AB%E6%8E%A8%E5%8A%A8%E9%A1%B9%E7%9B%AE/"/>
-    <id>http://weibo.com/mihawkmah/2017/08/24/项目管理框架-短平快推动项目/</id>
+    <link href="/2017/08/24/%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86%E6%A1%86%E6%9E%B6-%E7%9F%AD%E5%B9%B3%E5%BF%AB%E6%8E%A8%E5%8A%A8%E9%A1%B9%E7%9B%AE/"/>
+    <id>/2017/08/24/项目管理框架-短平快推动项目/</id>
     <published>2017-08-24T05:38:20.000Z</published>
     <updated>2017-09-01T08:30:43.000Z</updated>
     
@@ -1434,9 +1434,9 @@
 <p>风险管理：提早预防、加速应变，将不确定降到最低</p>
 <p>采购管理：挑选优质外包商，提升成本效益</p>
 </blockquote>
-<p><img src="/mihawkmah/2017/08/24/项目管理框架-短平快推动项目/项目管理框架.jpg" alt="项目管理框架"></p>
+<p><img src="/24/项目管理框架-短平快推动项目/项目管理框架.jpg" alt="项目管理框架"></p>
 <p>实际工作中短平快的沟通和项目管理有利于项目的高效进行，推荐使用<strong>OPPM</strong>项目管理方法，以目标为导向的过程化绩效管理。</p>
-<p><img src="/mihawkmah/2017/08/24/项目管理框架-短平快推动项目/OPPM项目管理.jpg" alt="OPPM"></p>
+<p><img src="/24/项目管理框架-短平快推动项目/OPPM项目管理.jpg" alt="OPPM"></p>
 ]]></content>
     
     <summary type="html">
@@ -1450,8 +1450,8 @@
   
   <entry>
     <title>产品文档框架 | 缜密的产品之术</title>
-    <link href="http://weibo.com/mihawkmah/2017/08/16/%E4%BA%A7%E5%93%81%E6%96%87%E6%A1%A3%E6%A1%86%E6%9E%B6-%E7%BC%9C%E5%AF%86%E7%9A%84%E4%BA%A7%E5%93%81%E4%B9%8B%E6%9C%AF/"/>
-    <id>http://weibo.com/mihawkmah/2017/08/16/产品文档框架-缜密的产品之术/</id>
+    <link href="/2017/08/16/%E4%BA%A7%E5%93%81%E6%96%87%E6%A1%A3%E6%A1%86%E6%9E%B6-%E7%BC%9C%E5%AF%86%E7%9A%84%E4%BA%A7%E5%93%81%E4%B9%8B%E6%9C%AF/"/>
+    <id>/2017/08/16/产品文档框架-缜密的产品之术/</id>
     <published>2017-08-16T07:24:32.000Z</published>
     <updated>2017-09-29T03:43:22.000Z</updated>
     
@@ -1470,7 +1470,7 @@
 </ol>
 </blockquote>
 <a id="more"></a>
-<p><img src="/mihawkmah/2017/08/16/产品文档框架-缜密的产品之术/文档框架.jpg" alt="文档框架"></p>
+<p><img src="/16/产品文档框架-缜密的产品之术/文档框架.jpg" alt="文档框架"></p>
 ]]></content>
     
     <summary type="html">
@@ -1497,8 +1497,8 @@
   
   <entry>
     <title>原型交互框架 | 高效沟通传达方案</title>
-    <link href="http://weibo.com/mihawkmah/2017/08/16/%E5%8E%9F%E5%9E%8B%E4%BA%A4%E4%BA%92%E6%A1%86%E6%9E%B6-%E9%AB%98%E6%95%88%E6%B2%9F%E9%80%9A%E4%BC%A0%E8%BE%BE%E6%96%B9%E6%A1%88/"/>
-    <id>http://weibo.com/mihawkmah/2017/08/16/原型交互框架-高效沟通传达方案/</id>
+    <link href="/2017/08/16/%E5%8E%9F%E5%9E%8B%E4%BA%A4%E4%BA%92%E6%A1%86%E6%9E%B6-%E9%AB%98%E6%95%88%E6%B2%9F%E9%80%9A%E4%BC%A0%E8%BE%BE%E6%96%B9%E6%A1%88/"/>
+    <id>/2017/08/16/原型交互框架-高效沟通传达方案/</id>
     <published>2017-08-16T07:23:32.000Z</published>
     <updated>2017-09-08T04:32:00.000Z</updated>
     
@@ -1507,7 +1507,7 @@
 <p>在允许的范围内（不同的输入输出限制下），努力寻找、选择、创造一些套路，影响用户行为，让用户以更好的体验完成自身目标以及产品目标。</p>
 </blockquote>
 <a id="more"></a>
-<p><img src="/mihawkmah/2017/08/16/原型交互框架-高效沟通传达方案/原型框架.jpg" alt="原型框架"></p>
+<p><img src="/16/原型交互框架-高效沟通传达方案/原型框架.jpg" alt="原型框架"></p>
 <blockquote>
 <p>测试文档模板：编号、功能元素、前置条件、操作步骤、预期结果、是否通过、实际结果、反馈建议</p>
 </blockquote>
