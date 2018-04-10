@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://Mihawkmah.github.io/"/>
-  <updated>2018-04-10T07:16:16.000Z</updated>
+  <updated>2018-04-10T08:49:13.000Z</updated>
   <id>http://Mihawkmah.github.io/</id>
   
   <author>
@@ -14,6 +14,58 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>机器学习入门基础</title>
+    <link href="http://Mihawkmah.github.io/2018/04/10/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%E5%9F%BA%E7%A1%80/"/>
+    <id>http://Mihawkmah.github.io/2018/04/10/机器学习入门基础/</id>
+    <published>2018-04-10T08:48:23.000Z</published>
+    <updated>2018-04-10T08:49:13.000Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="基础"><a href="#基础" class="headerlink" title="基础"></a>基础</h3><h4 id="机器学习3要素"><a href="#机器学习3要素" class="headerlink" title="机器学习3要素"></a>机器学习3要素</h4><ul>
+<li>T：任务</li>
+<li>P：模型、算法</li>
+<li>E：特征、数据</li>
+</ul>
+<h4 id="机器学习分类"><a href="#机器学习分类" class="headerlink" title="机器学习分类"></a>机器学习分类</h4><ul>
+<li>有监督学习：分类、回归。得出明确Label</li>
+<li>无监督学习：聚类Clustering、降维、异常检测Anomaly Detection</li>
+<li>半监督学习</li>
+</ul>
+<a id="more"></a>
+<h4 id="学习模型"><a href="#学习模型" class="headerlink" title="学习模型"></a>学习模型</h4><p>通过数据D从假设H中挑选出最接近目标函数的g，用g来推测训练数据以外的其他数据对应结果</p>
+<h4 id="机器学习流程"><a href="#机器学习流程" class="headerlink" title="机器学习流程"></a>机器学习流程</h4><p>数据收集、清洗、预处理、建模、模型调优、评估</p>
+<h4 id="使用到的包"><a href="#使用到的包" class="headerlink" title="使用到的包"></a>使用到的包</h4><p>Numpy、Pandas、Scikit-learn、Matplotlib、Seaborn</p>
+<h4 id="数据分类"><a href="#数据分类" class="headerlink" title="数据分类"></a>数据分类</h4><p>训练集：training set 所有数据的一个随机子集，用于训练模型</p>
+<p>测试集：testing set 用来验证模型在未知数据上的表现</p>
+<h3 id="机器学习算法"><a href="#机器学习算法" class="headerlink" title="机器学习算法"></a>机器学习算法</h3><h4 id="有监督学习算法：含有标签的数据的算法"><a href="#有监督学习算法：含有标签的数据的算法" class="headerlink" title="有监督学习算法：含有标签的数据的算法"></a>有监督学习算法：含有标签的数据的算法</h4><h5 id="回归算法"><a href="#回归算法" class="headerlink" title="回归算法"></a>回归算法</h5><p>线性回归：线性回归处理的是数值问题，也就是最后预测出的结果是数字，例如房价</p>
+<p>逻辑回归：逻辑回归属于分类算法，也就是说，逻辑回归预测结果是离散的分类，例如判断这封邮件是否是垃圾邮件，以及用户是否会点击此广告等等</p>
+<h5 id="人工神经网络ANN"><a href="#人工神经网络ANN" class="headerlink" title="人工神经网络ANN"></a>人工神经网络ANN</h5><p>在神经网络中，每个处理单元事实上就是一个逻辑回归模型，逻辑回归模型接收上层的输入，把模型的预测结果作为输出传输到下一个层次</p>
+<h5 id="SVM支持向量机"><a href="#SVM支持向量机" class="headerlink" title="SVM支持向量机"></a>SVM支持向量机</h5><p>二维平面划分出的非线性分类界线可以等价于三维平面的线性分类界线</p>
+<h4 id="无监督学习算法：不含标签的数据的算法"><a href="#无监督学习算法：不含标签的数据的算法" class="headerlink" title="无监督学习算法：不含标签的数据的算法"></a>无监督学习算法：不含标签的数据的算法</h4><h5 id="聚类算法"><a href="#聚类算法" class="headerlink" title="聚类算法"></a>聚类算法</h5><p>聚类算法就是计算种群中的距离，根据距离的远近将数据划分为多个族群。聚类算法中最典型的代表就是K-Means算法。</p>
+<h5 id="降维算法"><a href="#降维算法" class="headerlink" title="降维算法"></a>降维算法</h5><p>主要特征是将数据从高维降低到低维层次。在这里，维度其实表示的是数据的特征量的大小。降维算法的主要作用是压缩数据与提升机器学习其他算法的效率。降维算法的主要代表是PCA算法(即主成分分析算法)。</p>
+<h4 id="特殊算法"><a href="#特殊算法" class="headerlink" title="特殊算法"></a>特殊算法</h4><h5 id="推荐算法"><a href="#推荐算法" class="headerlink" title="推荐算法"></a>推荐算法</h5><p>一类是基于物品内容的推荐，是将与用户购买的内容近似的物品推荐给用户，这样的前提是每个物品都得有若干个标签，因此才可以找出与用户购买物品类似的物品，这样推荐的好处是关联程度较大，但是由于每个物品都需要贴标签，因此工作量较大。</p>
+<p>另一类是基于用户相似度的推荐，则是将与目标用户兴趣相同的其他用户购买的东西推荐给目标用户，例如小A历史上买了物品B和C，经过算法分析，发现另一个与小A近似的用户小D购买了物品E，于是将物品E推荐给小A。</p>
+<p>推荐算法中最有名的算法就是协同过滤算法。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;基础&quot;&gt;&lt;a href=&quot;#基础&quot; class=&quot;headerlink&quot; title=&quot;基础&quot;&gt;&lt;/a&gt;基础&lt;/h3&gt;&lt;h4 id=&quot;机器学习3要素&quot;&gt;&lt;a href=&quot;#机器学习3要素&quot; class=&quot;headerlink&quot; title=&quot;机器学习3要素&quot;&gt;&lt;/a&gt;机器学习3要素&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;T：任务&lt;/li&gt;
+&lt;li&gt;P：模型、算法&lt;/li&gt;
+&lt;li&gt;E：特征、数据&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;机器学习分类&quot;&gt;&lt;a href=&quot;#机器学习分类&quot; class=&quot;headerlink&quot; title=&quot;机器学习分类&quot;&gt;&lt;/a&gt;机器学习分类&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;有监督学习：分类、回归。得出明确Label&lt;/li&gt;
+&lt;li&gt;无监督学习：聚类Clustering、降维、异常检测Anomaly Detection&lt;/li&gt;
+&lt;li&gt;半监督学习&lt;/li&gt;
+&lt;/ul&gt;
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>卷四 | 产品文档</title>
@@ -1337,163 +1389,6 @@
       &lt;h3 id=&quot;1-MAC本地环境准备&quot;&gt;&lt;a href=&quot;#1-MAC本地环境准备&quot; class=&quot;headerlink&quot; title=&quot;1. MAC本地环境准备&quot;&gt;&lt;/a&gt;1. MAC本地环境准备&lt;/h3&gt;&lt;h4 id=&quot;安装Node-js&quot;&gt;&lt;a href=&quot;#安装Node-js&quot; class=&quot;headerlink&quot; title=&quot;安装Node.js&quot;&gt;&lt;/a&gt;安装Node.js&lt;/h4&gt;&lt;p&gt;官网下载安装包安装&lt;a href=&quot;https://hexo.io/zh-cn/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://hexo.io/zh-cn/&lt;/a&gt;&lt;/p&gt;
 &lt;h4 id=&quot;安装Git&quot;&gt;&lt;a href=&quot;#安装Git&quot; class=&quot;headerlink&quot; title=&quot;安装Git&quot;&gt;&lt;/a&gt;安装Git&lt;/h4&gt;&lt;p&gt;&lt;code&gt;brew install git&lt;/code&gt;&lt;/p&gt;
 &lt;h4 id=&quot;安装Hexo&quot;&gt;&lt;a href=&quot;#安装Hexo&quot; class=&quot;headerlink&quot; title=&quot;安装Hexo&quot;&gt;&lt;/a&gt;安装Hexo&lt;/h4&gt;&lt;p&gt;&lt;code&gt;sudo npm install -g hexo&lt;/code&gt;&lt;/p&gt;
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>轻松4步完成Flask博客Apache服务器搭建</title>
-    <link href="http://Mihawkmah.github.io/2017/08/04/%E8%BD%BB%E6%9D%BE4%E6%AD%A5%E5%AE%8C%E6%88%90Flask%E5%8D%9A%E5%AE%A2Apache%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%90%AD%E5%BB%BA/"/>
-    <id>http://Mihawkmah.github.io/2017/08/04/轻松4步完成Flask博客Apache服务器搭建/</id>
-    <published>2017-08-04T06:40:00.000Z</published>
-    <updated>2017-09-08T07:20:06.000Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="第1步-服务器配置"><a href="#第1步-服务器配置" class="headerlink" title="第1步 服务器配置"></a>第1步 服务器配置</h3><h4 id="环境准备"><a href="#环境准备" class="headerlink" title="环境准备"></a>环境准备</h4><ul>
-<li><p>使用centos-6-x86系统</p>
-</li>
-<li><p>用iterm连接服务器 </p>
-<p><code>ssh root@67.209.189.156 -p 27556</code></p>
-<a id="more"></a>
-</li>
-<li><p>在iterm按快捷键option+command+F打开密码管理，输入服务器密码。打开菜单Profiles-Advanced-Edit配置自动弹出密码，其中Regular Expression填写root@67.209.189.156’s password:，Action填写Open Password Manager，然后选择对应的服务器密码。</p>
-</li>
-<li><p>升级服务器</p>
-<p><code>yum update</code></p>
-</li>
-<li><p>编译环境准备</p>
-<p><code>yum groupinstall &#39;Development Tools&#39;</code> </p>
-<p><code>yum install zlib-devel bzip2-devel openssl-devel ncurese-devel wget</code></p>
-<p>​</p>
-<h4 id="安装Python3-6"><a href="#安装Python3-6" class="headerlink" title="安装Python3.6"></a>安装Python3.6</h4></li>
-<li><p>下载Python3.6代码包</p>
-<p><code>wget https://www.python.org/ftp/python/3.6.0/Python-3.6.0.tar.xz</code></p>
-</li>
-<li><p>编译</p>
-<p><code>tar Jxvf Python-3.5.1.tar.xz</code></p>
-<p><code>cd Python-3.5.1</code> </p>
-<p><code>./configure --prefix=/usr/local/python3</code> </p>
-<p><code>make &amp;&amp; make install</code></p>
-<p>​</p>
-<h4 id="更换系统默认Python版本"><a href="#更换系统默认Python版本" class="headerlink" title="更换系统默认Python版本"></a><strong>更换系统默认Python版本</strong></h4></li>
-<li><p>1 备份旧版本 Python</p>
-<p><code>mv /usr/bin/python /usr/bin/python2.6.6</code></p>
-</li>
-<li><p>2 新建指向新版本 Python 以及 pip 的软连接</p>
-<p><code>ln -s /usr/local/python3/bin/python3.6 /usr/bin/python</code></p>
-<p><code>ln -s /usr/local/python3/bin/pip3 /usr/bin/pip</code></p>
-</li>
-<li><p>3 检验 Python 及 pip 版本</p>
-<p><code>python -V</code></p>
-<p><code>pip -V</code></p>
-<p>​</p>
-<h4 id="更新yum相关设置"><a href="#更新yum相关设置" class="headerlink" title="更新yum相关设置"></a><strong>更新yum相关设置</strong></h4></li>
-<li><p>因 yum 的功能依赖 Python2 更改默认 Python版本后会导致 yum无法正常工作</p>
-</li>
-<li><p>执行以下命令</p>
-<p><code>vi /usr/bin/yum</code></p>
-</li>
-<li><p>打开文件，修改第一行为：</p>
-<p><code>#!/usr/bin/python2.7</code></p>
-</li>
-</ul>
-<h3 id="第2步-Apache配置"><a href="#第2步-Apache配置" class="headerlink" title="第2步 Apache配置"></a>第2步 Apache配置</h3><ul>
-<li><h4 id="安装Apache服务器相关包"><a href="#安装Apache服务器相关包" class="headerlink" title="安装Apache服务器相关包"></a>安装Apache服务器相关包</h4><p><code>yum install httpd</code></p>
-<p><code>yum install httpd-devel</code></p>
-<p>##### </p>
-</li>
-<li><h4 id="安装mod-wsgi-so"><a href="#安装mod-wsgi-so" class="headerlink" title="安装mod_wsgi.so"></a>安装mod_wsgi.so</h4></li>
-<li><p>不能使用yum安装，使用Python3.6安装，参考网址<a href="http://modwsgi.readthedocs.io/en/develop/user-guides/quick-installation-guide.html" target="_blank" rel="external">http://modwsgi.readthedocs.io/en/develop/user-guides/quick-installation-guide.html</a></p>
-</li>
-<li><p>下载安装包<a href="https://github.com/GrahamDumpleton/mod_wsgi/releases" target="_blank" rel="external">https://github.com/GrahamDumpleton/mod_wsgi/releases</a></p>
-</li>
-<li><p>编译</p>
-<p><code>tar xvfz mod_wsgi-X.Y.tar.gz</code></p>
-<p><code>./configure --with-python=/usr/local/python3/bin/python3.6</code></p>
-<p><code>make</code></p>
-<p><code>make install</code></p>
-</li>
-<li><p>记录安装完成后显示的路径</p>
-<p><code>/usr/lib/httpd/modules</code></p>
-<p>​</p>
-</li>
-</ul>
-<h3 id="第3步-数据库配置"><a href="#第3步-数据库配置" class="headerlink" title="第3步 数据库配置"></a>第3步 数据库配置</h3><ul>
-<li><p>查看系统版本，如果输出的信息包含 x86_64，说明你的系统是64位，如果不包含说明是32位系统。</p>
-<p><code>uname -a</code></p>
-</li>
-<li><p>创建10gen.repo文件</p>
-<p><code>cd /etc/yum.repos.d/</code></p>
-<p><code>vi 10gen.repo</code></p>
-</li>
-<li><p>把下列信息粘贴到10gen.repo文件中（32位系统）</p>
-</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">[10gen]  </div><div class="line">name=10gen Repository  </div><div class="line">baseurl=http://downloads-distro.mongodb.org/repo/redhat/os/i686  </div><div class="line">gpgcheck=0</div></pre></td></tr></table></figure>
-<ul>
-<li><p>查看是否生效</p>
-<p><code>yum info mongo-10gen-server</code></p>
-</li>
-<li><p>开始安装</p>
-<p><code>yum install mongo-10gen-server</code>  </p>
-</li>
-<li><p>配置文件地址 /etc/mongod.conf</p>
-</li>
-<li><p>启动mongodb</p>
-<p><code>service mongod start</code></p>
-<p>​</p>
-</li>
-</ul>
-<h3 id="第4步-网站配置"><a href="#第4步-网站配置" class="headerlink" title="第4步 网站配置"></a>第4步 网站配置</h3><ul>
-<li><p>Flask博客环境配置</p>
-<p><code>pip install flask-mongoengine</code></p>
-<p><code>pip install flask-login</code></p>
-<p><code>pip install flask</code></p>
-<p><code>pip install flask-wtf</code></p>
-<p><code>pip install jinja2</code></p>
-</li>
-<li><p>打开配置文件 </p>
-<p><code>vi /etc/httpd/conf/httpd.conf</code></p>
-</li>
-<li><p>将如下代码加入到配置文件中，路径为mod_wsgi.so安装的路径。加在mod_version.so之后</p>
-<p><code>LoadModule wsgi_module /usr/lib/httpd/modules/mod_wsgi.so</code></p>
-</li>
-<li><p>将如下代码加在<directory "="" var="" www="" html"=""></directory>整段代码之后</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">#WSGIPythonHome /usr/local/python3/bin </div><div class="line">&lt;VirtualHost *:80&gt; </div><div class="line">ServerName example.com </div><div class="line">WSGIScriptAlias /blog /var/www/html/blog/flask.wsgi </div><div class="line">&lt;Directory /var/www/html/blog&gt; </div><div class="line">#Require all granted </div><div class="line">#Require host ip </div><div class="line">Order allow,deny </div><div class="line">Allow from all </div><div class="line">&lt;/Directory&gt; </div><div class="line">&lt;/VirtualHost&gt;</div></pre></td></tr></table></figure>
-</li>
-<li><p>配置flask.wsgi代码为</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">import sys </div><div class="line">sys.path.insert(0, &quot;/var/www/html/blog&quot;) #工程根目录，即wsgi文件的路径</div><div class="line">from app import app as application</div></pre></td></tr></table></figure>
-</li>
-<li><p>目录结构如下</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line">+ 根目录 /var/www/html/blog</div><div class="line">  + flask.wsgi</div><div class="line">  + app/</div><div class="line">    + __init__.py</div><div class="line">    + views.py</div><div class="line">    + models.py</div><div class="line">    + forms.py</div><div class="line">    + static/</div><div class="line">      + ckeditor/</div><div class="line">      + images/</div><div class="line">    + templates/</div><div class="line">      + index.html</div><div class="line">      + base.html</div></pre></td></tr></table></figure>
-<p>init__.py文件如下</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div></pre></td><td class="code"><pre><div class="line"># -*- coding: utf-8 -*-</div><div class="line"></div><div class="line">from flask import Flask</div><div class="line">from flask_mongoengine import MongoEngine</div><div class="line">from flask.ext.login import LoginManager</div><div class="line"></div><div class="line"># 初始化flask应用</div><div class="line">app = Flask(__name__)</div><div class="line">app.config.from_object(&apos;config&apos;)</div><div class="line"></div><div class="line"># 初始化数据库</div><div class="line">app.config[&apos;MONGODB_SETTINGS&apos;] = &#123;</div><div class="line">    &apos;db&apos;: &apos;mblog&apos;,</div><div class="line">    &apos;host&apos;: &apos;127.0.0.1&apos;,</div><div class="line">    &apos;port&apos;: 27017</div><div class="line">&#125;</div><div class="line">db = MongoEngine(app)</div><div class="line"></div><div class="line"># 初始化Flasklogin</div><div class="line">lm = LoginManager(app)</div><div class="line"></div><div class="line">from app import views,models</div><div class="line"></div><div class="line">if __name__ == &apos;__main__&apos;:</div><div class="line">    app.run(host=&apos;0.0.0.0&apos;,port=5000,debug=True)</div></pre></td></tr></table></figure>
-</li>
-</ul>
-<h3 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h3><ul>
-<li><p>显示软链接对应路径</p>
-<p><code>ls -l /usr/bin/python</code></p>
-</li>
-<li><p>显示python地址</p>
-<p><code>which python</code></p>
-</li>
-<li><p>查看错误日志</p>
-<p><code>tail -f /var/log/httpd/error_log</code></p>
-</li>
-</ul>
-<blockquote>
-<p>博客源码：<a href="https://github.com/Mihawkmah/Flask.blog" target="_blank" rel="external">https://github.com/Mihawkmah/Flask.blog</a></p>
-</blockquote>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;h3 id=&quot;第1步-服务器配置&quot;&gt;&lt;a href=&quot;#第1步-服务器配置&quot; class=&quot;headerlink&quot; title=&quot;第1步 服务器配置&quot;&gt;&lt;/a&gt;第1步 服务器配置&lt;/h3&gt;&lt;h4 id=&quot;环境准备&quot;&gt;&lt;a href=&quot;#环境准备&quot; class=&quot;headerlink&quot; title=&quot;环境准备&quot;&gt;&lt;/a&gt;环境准备&lt;/h4&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;使用centos-6-x86系统&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;用iterm连接服务器 &lt;/p&gt;
-&lt;p&gt;&lt;code&gt;ssh root@67.209.189.156 -p 27556&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;
     
     </summary>
     

@@ -1,0 +1,34 @@
+<!DOCTYPE html><html lang="zh-cn"><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><title> 机器学习入门基础 · 末小山 | 锦鲤无妙棋</title><meta name="description" content="机器学习入门基础 - Mihawkmah"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="icon" href="/favicon.png"><link rel="stylesheet" href="/css/apollo.css"><link rel="search" type="application/opensearchdescription+xml" href="http://Mihawkmah.github.io/atom.xml" title="末小山 | 锦鲤无妙棋"></head><body><div class="wrap"><header><a href="/" class="logo-link"><img src="/favicon.png" alt="logo"></a><ul class="nav nav-list"><li class="nav-list-item"><a href="/" target="_self" class="nav-list-link">我的</a></li><li class="nav-list-item"><a href="/archives/" target="_self" class="nav-list-link">胶囊</a></li><li class="nav-list-item"><a href="https://web.okjike.com/user/ED68A57E-147D-4023-AC39-D3CE1F6B9C9D" target="_blank" class="nav-list-link">即刻</a></li><li class="nav-list-item"><a href="http://mihawkmah.lofter.com/" target="_blank" class="nav-list-link">影像</a></li><li class="nav-list-item"><a href="https://github.com/mihawkmah" target="_blank" class="nav-list-link">足迹</a></li></ul></header><main class="container"><div class="post"><article class="post-block"><h1 class="post-title">机器学习入门基础</h1><div class="post-info">2018年4月10日</div><div class="post-content"><h3 id="基础"><a href="#基础" class="headerlink" title="基础"></a>基础</h3><h4 id="机器学习3要素"><a href="#机器学习3要素" class="headerlink" title="机器学习3要素"></a>机器学习3要素</h4><ul>
+<li>T：任务</li>
+<li>P：模型、算法</li>
+<li>E：特征、数据</li>
+</ul>
+<h4 id="机器学习分类"><a href="#机器学习分类" class="headerlink" title="机器学习分类"></a>机器学习分类</h4><ul>
+<li>有监督学习：分类、回归。得出明确Label</li>
+<li>无监督学习：聚类Clustering、降维、异常检测Anomaly Detection</li>
+<li>半监督学习</li>
+</ul>
+<a id="more"></a>
+<h4 id="学习模型"><a href="#学习模型" class="headerlink" title="学习模型"></a>学习模型</h4><p>通过数据D从假设H中挑选出最接近目标函数的g，用g来推测训练数据以外的其他数据对应结果</p>
+<h4 id="机器学习流程"><a href="#机器学习流程" class="headerlink" title="机器学习流程"></a>机器学习流程</h4><p>数据收集、清洗、预处理、建模、模型调优、评估</p>
+<h4 id="使用到的包"><a href="#使用到的包" class="headerlink" title="使用到的包"></a>使用到的包</h4><p>Numpy、Pandas、Scikit-learn、Matplotlib、Seaborn</p>
+<h4 id="数据分类"><a href="#数据分类" class="headerlink" title="数据分类"></a>数据分类</h4><p>训练集：training set 所有数据的一个随机子集，用于训练模型</p>
+<p>测试集：testing set 用来验证模型在未知数据上的表现</p>
+<h3 id="机器学习算法"><a href="#机器学习算法" class="headerlink" title="机器学习算法"></a>机器学习算法</h3><h4 id="有监督学习算法：含有标签的数据的算法"><a href="#有监督学习算法：含有标签的数据的算法" class="headerlink" title="有监督学习算法：含有标签的数据的算法"></a>有监督学习算法：含有标签的数据的算法</h4><h5 id="回归算法"><a href="#回归算法" class="headerlink" title="回归算法"></a>回归算法</h5><p>线性回归：线性回归处理的是数值问题，也就是最后预测出的结果是数字，例如房价</p>
+<p>逻辑回归：逻辑回归属于分类算法，也就是说，逻辑回归预测结果是离散的分类，例如判断这封邮件是否是垃圾邮件，以及用户是否会点击此广告等等</p>
+<h5 id="人工神经网络ANN"><a href="#人工神经网络ANN" class="headerlink" title="人工神经网络ANN"></a>人工神经网络ANN</h5><p>在神经网络中，每个处理单元事实上就是一个逻辑回归模型，逻辑回归模型接收上层的输入，把模型的预测结果作为输出传输到下一个层次</p>
+<h5 id="SVM支持向量机"><a href="#SVM支持向量机" class="headerlink" title="SVM支持向量机"></a>SVM支持向量机</h5><p>二维平面划分出的非线性分类界线可以等价于三维平面的线性分类界线</p>
+<h4 id="无监督学习算法：不含标签的数据的算法"><a href="#无监督学习算法：不含标签的数据的算法" class="headerlink" title="无监督学习算法：不含标签的数据的算法"></a>无监督学习算法：不含标签的数据的算法</h4><h5 id="聚类算法"><a href="#聚类算法" class="headerlink" title="聚类算法"></a>聚类算法</h5><p>聚类算法就是计算种群中的距离，根据距离的远近将数据划分为多个族群。聚类算法中最典型的代表就是K-Means算法。</p>
+<h5 id="降维算法"><a href="#降维算法" class="headerlink" title="降维算法"></a>降维算法</h5><p>主要特征是将数据从高维降低到低维层次。在这里，维度其实表示的是数据的特征量的大小。降维算法的主要作用是压缩数据与提升机器学习其他算法的效率。降维算法的主要代表是PCA算法(即主成分分析算法)。</p>
+<h4 id="特殊算法"><a href="#特殊算法" class="headerlink" title="特殊算法"></a>特殊算法</h4><h5 id="推荐算法"><a href="#推荐算法" class="headerlink" title="推荐算法"></a>推荐算法</h5><p>一类是基于物品内容的推荐，是将与用户购买的内容近似的物品推荐给用户，这样的前提是每个物品都得有若干个标签，因此才可以找出与用户购买物品类似的物品，这样推荐的好处是关联程度较大，但是由于每个物品都需要贴标签，因此工作量较大。</p>
+<p>另一类是基于用户相似度的推荐，则是将与目标用户兴趣相同的其他用户购买的东西推荐给目标用户，例如小A历史上买了物品B和C，经过算法分析，发现另一个与小A近似的用户小D购买了物品E，于是将物品E推荐给小A。</p>
+<p>推荐算法中最有名的算法就是协同过滤算法。</p>
+</div></article></div></main><footer><div class="paginator"><a href="/2018/04/09/卷四-产品文档/" class="next">下一篇</a></div><div id="disqus_thread"></div><script>var disqus_shortname = 'mihawkmah';
+var disqus_identifier = '2018/04/10/机器学习入门基础/';
+var disqus_title = '机器学习入门基础';
+var disqus_url = 'http://Mihawkmah.github.io/2018/04/10/机器学习入门基础/';
+(function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();</script><script id="dsq-count-scr" src="//mihawkmah.disqus.com/count.js" async></script><div class="copyright"><p>© 2017 - 2018 <a href="http://Mihawkmah.github.io">Mihawkmah</a>, powered by <a href="https://hexo.io/" target="_blank">Hexo</a>.</p></div></footer></div><script async src="//cdn.bootcss.com/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML" integrity="sha384-crwIf/BuaWM9rM65iM+dWFldgQ1Un8jWZMuh3puxb8TOY9+linwLoI7ZHZT+aekW" crossorigin="anonymous"></script></body></html>
