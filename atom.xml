@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://Mihawkmah.github.io/"/>
-  <updated>2018-04-22T01:45:15.046Z</updated>
+  <updated>2018-04-12T08:12:16.000Z</updated>
   <id>http://Mihawkmah.github.io/</id>
   
   <author>
@@ -14,20 +14,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>test</title>
-    <link href="http://Mihawkmah.github.io/2018/04/22/test/"/>
-    <id>http://Mihawkmah.github.io/2018/04/22/test/</id>
-    <published>2018-04-22T01:45:15.000Z</published>
-    <updated>2018-04-22T01:45:15.046Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-  </entry>
   
   <entry>
     <title>机器学习有监督模型</title>
@@ -1371,6 +1357,40 @@
 &lt;li&gt;透明&lt;/li&gt;
 &lt;li&gt;起始&lt;/li&gt;
 &lt;/ul&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>项目管理框架 | 短平快推动项目</title>
+    <link href="http://Mihawkmah.github.io/2017/08/24/%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86%E6%A1%86%E6%9E%B6-%E7%9F%AD%E5%B9%B3%E5%BF%AB%E6%8E%A8%E5%8A%A8%E9%A1%B9%E7%9B%AE/"/>
+    <id>http://Mihawkmah.github.io/2017/08/24/项目管理框架-短平快推动项目/</id>
+    <published>2017-08-24T05:38:20.000Z</published>
+    <updated>2017-09-01T08:30:43.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>实际工作中为了确保项目按照进度顺利完成，产品经理需要对项目进行一定的管理和把控，这个过程中包含了时间管理、人员管理、资源的控制协调等。产品相较于研发在思考的维度上往往更具有深度和广度，所以更加适合进行项目的管理工作。研发往往只会通过实现这个维度去思考问题，而产品则需要考虑体验、交互、用户、产品、市场等一系列影响项目的因素。</p>
+<a id="more"></a>
+<h3 id="项目管理的9大知识领域"><a href="#项目管理的9大知识领域" class="headerlink" title="项目管理的9大知识领域"></a>项目管理的9大知识领域</h3><blockquote>
+<p>整合管理：以全盘视野，掌控项目全程</p>
+<p>项目范围管理：达成目标，哪些该做、哪些不该做？</p>
+<p>时间管理：赋予合理期限，准时开工、准时收工</p>
+<p>成本管理：估算、预算，控制，3阶段掌握成本</p>
+<p>质量管理： 质量，来自好计划，而不是多检验</p>
+<p>人力资源管理：调度人力、划分职权，成员产能不浪费</p>
+<p>沟通管理：花80%时间沟通，让对的人有对的信息</p>
+<p>风险管理：提早预防、加速应变，将不确定降到最低</p>
+<p>采购管理：挑选优质外包商，提升成本效益</p>
+</blockquote>
+<p><img src="/2017/08/24/项目管理框架-短平快推动项目/项目管理框架.jpg" alt="项目管理框架"></p>
+<p>实际工作中短平快的沟通和项目管理有利于项目的高效进行，推荐使用<strong>OPPM</strong>项目管理方法，以目标为导向的过程化绩效管理。</p>
+<p><img src="/2017/08/24/项目管理框架-短平快推动项目/OPPM项目管理.jpg" alt="OPPM"></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;实际工作中为了确保项目按照进度顺利完成，产品经理需要对项目进行一定的管理和把控，这个过程中包含了时间管理、人员管理、资源的控制协调等。产品相较于研发在思考的维度上往往更具有深度和广度，所以更加适合进行项目的管理工作。研发往往只会通过实现这个维度去思考问题，而产品则需要考虑体验、交互、用户、产品、市场等一系列影响项目的因素。&lt;/p&gt;
     
     </summary>
     
